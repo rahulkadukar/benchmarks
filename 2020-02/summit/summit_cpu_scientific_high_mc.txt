@@ -1,0 +1,77 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Scientific Performance : 46GFLOPS
+General Matrix Multiply (GEMM) AVX2/FMA : 156.64GFLOPS
+Fast Fourier Transform (FFT) AVX2/FMA : 13.53GFLOPS
+N-Body Simulation (NBDY) AVX2/FMA : 365.87GFLOPS
+Type : Floating-Point (High Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance per Thread
+Aggregate Scientific Performance : 2.88GFLOPS
+General Matrix Multiply (GEMM) : 9.79GFLOPS
+N-Body Simulation (NBDY) : 845MFLOPS
+Monte Carlo Euro Option Pricing : 22.87GFLOPS
+No. Threads : 16
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 143.430W
+Aggregate Scientific Performance : 320.91MFLOPS/W
+General Matrix Multiply (GEMM) : 1092.09MFLOPS/W
+N-Body Simulation (NBDY) : 94.30MFLOPS/W
+Monte Carlo Euro Option Pricing : 2550.85MFLOPS/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Scientific Performance : 9.86MFLOPS/MHz
+General Matrix Multiply (GEMM) : 33.57MFLOPS/MHz
+N-Body Simulation (NBDY) : 2.90MFLOPS/MHz
+Monte Carlo Euro Option Pricing : 78.41MFLOPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+General Matrix Multiply (GEMM)
+Matrix Dimensions : 18944x18944
+
+Fast Fourier Transform (FFT)
+Block Size : 67108864
+
+N-Body Simulation (NBDY)
+No. Bodies : 32704
+
+Benchmark Status
+Result ID : AMD Ryzen 9 3950X 16-Core Processor (16C 32T 4.67GHz, 1.8GHz IMC, 16x 512kB L2, 4x 16MB L3)
+Microcode : MU8F710013
+Computer : GigaByte X570 AORUS PRO WIFI Default string
+Platform Compliance : x64
+No. Threads : 16
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U12-C6T0 U14-C7T0 U16-C8T0 U18-C9T0 U20-C10T0 U22-C11T0 U24-C12T0 U26-C13T0 U28-C14T0 U30-C15T0 
+System Timer : 10MHz
+
+Processor
+Model : AMD Ryzen 9 3950X 16-Core Processor
+Speed : 4.67GHz (99%)
+Min/Max/Turbo Speed : 2.2GHz - 3.5GHz - 4.67GHz
+Maximum Power : 60.104W - 143.428W
+Cores per Processor : 16 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 16x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 16x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 16x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 4x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.8GHz (100%)
+Min/Max/Turbo Speed : 900MHz - 1.8GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

@@ -1,0 +1,81 @@
+SiSoftware Sandra
+
+Benchmark Results
+Neural Network Aggregate Performance : 6.272samples/s
+CNN Inference (Forward) x8 AVX2/FMA : 26.110samples/s
+CNN Train (Back-Propagation) x8 AVX2/FMA : 2.010samples/s
+RNN Inference (Forward) x8 AVX2/FMA : 18.328samples/s
+RNN Train (Back-Prop in Time) x8 AVX2/FMA : 1.609samples/s
+Type : Floating-Point (High Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Performance per Thread
+Neural Network Aggregate Performance : 0.392samples/s
+No. Threads : 16
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 127.050W
+Neural Network Aggregate Performance : 49.37samples/s/W
+CNN Inference (Forward) : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Neural Network Aggregate Performance : 1.43samples/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+CNN (Convolution Neural Network)
+Rendered Image Size : 224x224
+CNN Inference (Forward) : 144, 10%
+CNN Train (Back-Propagation) : 12, 8%
+
+RNN (Recurrent Neural Network)
+Rendered Image Size : 224x224
+RNN Inference (Forward) : 101, 10%
+RNN Train (Back-Prop in Time) : 16, 11%
+
+Benchmark Status
+Result ID : AMD Ryzen 7 3800X 8-Core Processor (8C 16T 4.39GHz, 1.6GHz IMC, 8x 512kB L2, 2x 16MB L3)
+Microcode : MU8F710013
+Computer : ASUS PRIME X570-PRO
+Platform Compliance : x64
+No. Threads : 16
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U12-C6T0 U14-C7T0 U1-C0T1 U3-C1T1 U5-C2T1 U7-C3T1 U9-C4T1 U11-C5T1 U13-C6T1 U15-C7T1 
+System Timer : 10MHz
+
+Processor
+Model : AMD Ryzen 7 3800X 8-Core Processor
+Speed : 4.39GHz (99%)
+Min/Max/Turbo Speed : 2.2GHz - 3.9GHz - 4.4GHz
+Maximum Power : 66.973W - 127.050W
+Cores per Processor : 8 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 8x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 2x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 1.6GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
+AVX - Advanced Vector eXtensions : Yes
+FMA3 - Fused Multiply/Add eXtensions : Yes
+AVX2 - Advanced Vector eXtensions v2 : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

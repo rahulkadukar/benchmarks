@@ -1,0 +1,76 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Scientific Performance : 54.24GFLOPS
+General Matrix Multiply (GEMM) AVX2/FMA : 252GFLOPS
+Fast Fourier Transform (FFT) AVX2/FMA : 11.68GFLOPS
+N-Body Simulation (NBDY) AVX2/FMA : 368.54GFLOPS
+Type : Floating-Point (Normal Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance per Thread
+Aggregate Scientific Performance : 4.52GFLOPS
+General Matrix Multiply (GEMM) : 21GFLOPS
+N-Body Simulation (NBDY) : 972MFLOPS
+Monte Carlo Euro Option Pricing : 30.71GFLOPS
+No. Threads : 12
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 142.190W
+Aggregate Scientific Performance : 381.46MFLOPS/W
+General Matrix Multiply (GEMM) : 1772.23MFLOPS/W
+N-Body Simulation (NBDY) : 82.11MFLOPS/W
+Monte Carlo Euro Option Pricing : 2591.85MFLOPS/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Scientific Performance : 12.30MFLOPS/MHz
+General Matrix Multiply (GEMM) : 57.15MFLOPS/MHz
+N-Body Simulation (NBDY) : 2.65MFLOPS/MHz
+Monte Carlo Euro Option Pricing : 83.59MFLOPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+General Matrix Multiply (GEMM)
+Matrix Dimensions : 13440x13440
+
+Fast Fourier Transform (FFT)
+Block Size : 33554432
+
+N-Body Simulation (NBDY)
+No. Bodies : 22848
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-8086K CPU @ 4.00GHz (6C 12T 4.41GHz/5GHz, 4.1GHz IMC/4.7GHz, 6x 256kB L2, 12MB L3)
+Microcode : MU069E0A96
+Computer : ASRock Z390 Phantom Gaming 9
+Platform Compliance : x64
+No. Threads : 12
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U1-C0T1 U3-C1T1 U5-C2T1 U7-C3T1 U9-C4T1 U11-C5T1 
+System Timer : 10MHz
+
+Processor
+Model : Intel(R) Core(TM) i7-8086K CPU @ 4.00GHz
+Speed : 4.41GHz (88%)
+Min/Max/Turbo Speed : 800MHz - 4GHz - 5GHz
+Maximum Power : 95.000W - 142.188W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 9E / A
+Microcode : MU069E0A96
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 4-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 12MB, ECC, 16-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 4.1GHz (87%)
+Min/Max/Turbo Speed : 800MHz - 4.7GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

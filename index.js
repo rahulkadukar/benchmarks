@@ -39,6 +39,15 @@ const benchMarks = [
         'data': [ 775, 391.14, 284.11 ]
       }
     ]
+  },
+  {
+    'name': 'Dhrystone Long Native AVX2',
+    'datasets': [
+      {
+        'label': 'GIPS',
+        'data': [ 773.18, 389.19, 290.08 ]
+      }
+    ]
   }
 ]
 
