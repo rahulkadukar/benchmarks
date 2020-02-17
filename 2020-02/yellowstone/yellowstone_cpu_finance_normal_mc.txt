@@ -1,0 +1,80 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Option Pricing Performance : 61.85kOPT/s
+Black-Scholes Euro Option Pricing : 166.74MOPT/s
+Binomial Euro Option Pricing : 29.74kOPT/s
+Monte Carlo Euro Option Pricing : 128.65kOPT/s
+Type : Floating-Point (Normal Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance per Thread
+Aggregate Option Pricing Performance : 10.31kOPT/s
+Black-Scholes Euro Option Pricing : 27.79MOPT/s
+Binomial Euro Option Pricing : 5kOPT/s
+Monte Carlo Euro Option Pricing : 21.44kOPT/s
+No. Threads : 6
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 142.190W
+Aggregate Option Pricing Performance : 434.98OPT/s/W
+Black-Scholes Euro Option Pricing : 1172649.27OPT/s/W
+Binomial Euro Option Pricing : 209.13OPT/s/W
+Monte Carlo Euro Option Pricing : 904.75OPT/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Option Pricing Performance : 14.35OPT/s/MHz
+Black-Scholes Euro Option Pricing : 38695.52OPT/s/MHz
+Binomial Euro Option Pricing : 6.90OPT/s/MHz
+Monte Carlo Euro Option Pricing : 29.86OPT/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Black-Scholes Euro Option Pricing
+Price Options : 87614634
+
+Binomial Euro Option Pricing
+Price Options : 42780
+Time Steps : 1024
+
+Monte Carlo Euro Option Pricing
+Price Options : 85560
+Simulation Paths : 32768
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-8086K CPU @ 4.00GHz (6C 12T 4.31GHz/5GHz, 4GHz IMC/4.7GHz, 6x 256kB L2, 12MB L3)
+Microcode : MU069E0A96
+Computer : ASRock Z390 Phantom Gaming 9
+Platform Compliance : x64
+No. Threads : 6
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 
+System Timer : 10MHz
+Block Size : 83.55kB
+
+Processor
+Model : Intel(R) Core(TM) i7-8086K CPU @ 4.00GHz
+Speed : 4.31GHz (86%)
+Min/Max/Turbo Speed : 800MHz - 4GHz - 5GHz
+Maximum Power : 95.000W - 142.188W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 9E / A
+Microcode : MU069E0A96
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 4-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 12MB, ECC, 16-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 4GHz (85%)
+Min/Max/Turbo Speed : 800MHz - 4.7GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

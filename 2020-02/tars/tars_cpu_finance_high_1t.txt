@@ -1,0 +1,72 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Option Pricing Performance : 9.92kOPT/s
+Black-Scholes Euro Option Pricing : 23.62MOPT/s
+Binomial Euro Option Pricing : 8.21kOPT/s
+Monte Carlo Euro Option Pricing : 12kOPT/s
+Type : Floating-Point (High Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 128.500W
+Aggregate Option Pricing Performance : 77.21OPT/s/W
+Black-Scholes Euro Option Pricing : 183805.45OPT/s/W
+Binomial Euro Option Pricing : 63.89OPT/s/W
+Monte Carlo Euro Option Pricing : 93.32OPT/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Option Pricing Performance : 2.81OPT/s/MHz
+Black-Scholes Euro Option Pricing : 6683.36OPT/s/MHz
+Binomial Euro Option Pricing : 2.32OPT/s/MHz
+Monte Carlo Euro Option Pricing : 3.39OPT/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Black-Scholes Euro Option Pricing
+Price Options : 178737621
+
+Binomial Euro Option Pricing
+Price Options : 87274
+Time Steps : 1024
+
+Monte Carlo Euro Option Pricing
+Price Options : 174548
+Simulation Paths : 32768
+
+Benchmark Status
+Result ID : AMD Ryzen 7 3800X 8-Core Processor (8C 16T 3.53GHz/4.42GHz, 1.6GHz IMC, 8x 512kB L2, 2x 16MB L3)
+Microcode : MU8F710013
+Computer : ASUS PRIME X570-PRO
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U15-C7T1 
+System Timer : 10MHz
+Block Size : 170.46kB
+
+Processor
+Model : AMD Ryzen 7 3800X 8-Core Processor
+Speed : 3.53GHz (79%)
+Min/Max/Turbo Speed : 2.2GHz - 3.9GHz - 4.42GHz
+Maximum Power : 66.973W - 128.498W
+Cores per Processor : 8 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 8x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 2x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 1.6GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Tip 223 : CPU speed, under load, lower than rated speed. Check power management settings.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

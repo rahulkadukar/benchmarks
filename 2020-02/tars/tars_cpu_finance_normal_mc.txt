@@ -1,0 +1,80 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Option Pricing Performance : 149.28kOPT/s
+Black-Scholes Euro Option Pricing : 237.33MOPT/s
+Binomial Euro Option Pricing : 103.19kOPT/s
+Monte Carlo Euro Option Pricing : 216kOPT/s
+Type : Floating-Point (Normal Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance per Thread
+Aggregate Option Pricing Performance : 18.66kOPT/s
+Black-Scholes Euro Option Pricing : 29.67MOPT/s
+Binomial Euro Option Pricing : 12.9kOPT/s
+Monte Carlo Euro Option Pricing : 27kOPT/s
+No. Threads : 8
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 128.500W
+Aggregate Option Pricing Performance : 1161.67OPT/s/W
+Black-Scholes Euro Option Pricing : 1846918.29OPT/s/W
+Binomial Euro Option Pricing : 803.00OPT/s/W
+Monte Carlo Euro Option Pricing : 1680.57OPT/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Option Pricing Performance : 39.10OPT/s/MHz
+Black-Scholes Euro Option Pricing : 62160.56OPT/s/MHz
+Binomial Euro Option Pricing : 27.03OPT/s/MHz
+Monte Carlo Euro Option Pricing : 56.56OPT/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Black-Scholes Euro Option Pricing
+Price Options : 357475240
+
+Binomial Euro Option Pricing
+Price Options : 174544
+Time Steps : 1024
+
+Monte Carlo Euro Option Pricing
+Price Options : 349096
+Simulation Paths : 32768
+
+Benchmark Status
+Result ID : AMD Ryzen 7 3800X 8-Core Processor (8C 16T 3.82GHz/4.42GHz, 1.6GHz IMC, 8x 512kB L2, 2x 16MB L3)
+Microcode : MU8F710013
+Computer : ASUS PRIME X570-PRO
+Platform Compliance : x64
+No. Threads : 8
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U12-C6T0 U14-C7T0 
+System Timer : 10MHz
+Block Size : 340.9kB
+
+Processor
+Model : AMD Ryzen 7 3800X 8-Core Processor
+Speed : 3.82GHz (86%)
+Min/Max/Turbo Speed : 2.2GHz - 3.9GHz - 4.42GHz
+Maximum Power : 66.973W - 128.498W
+Cores per Processor : 8 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 8x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 2x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 1.6GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 241 : Dynamic OverClocking/Turbo enabled. Performance may not be consistent and may not match expectations!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

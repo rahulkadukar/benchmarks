@@ -1,0 +1,71 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Option Pricing Performance : 19.55kOPT/s
+Black-Scholes Euro Option Pricing : 31MOPT/s
+Binomial Euro Option Pricing : 13.47kOPT/s
+Monte Carlo Euro Option Pricing : 28.37kOPT/s
+Type : Floating-Point (Normal Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 144.970W
+Aggregate Option Pricing Performance : 134.86OPT/s/W
+Black-Scholes Euro Option Pricing : 213733.88OPT/s/W
+Binomial Euro Option Pricing : 92.92OPT/s/W
+Monte Carlo Euro Option Pricing : 195.72OPT/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Option Pricing Performance : 4.58OPT/s/MHz
+Black-Scholes Euro Option Pricing : 7263.24OPT/s/MHz
+Binomial Euro Option Pricing : 3.16OPT/s/MHz
+Monte Carlo Euro Option Pricing : 6.65OPT/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Black-Scholes Euro Option Pricing
+Price Options : 357638314
+
+Binomial Euro Option Pricing
+Price Options : 174628
+Time Steps : 1024
+
+Monte Carlo Euro Option Pricing
+Price Options : 349256
+Simulation Paths : 32768
+
+Benchmark Status
+Result ID : AMD Ryzen 9 3950X 16-Core Processor (16C 32T 4.27GHz/4.7GHz, 1.8GHz IMC, 16x 512kB L2, 4x 16MB L3)
+Microcode : MU8F710013
+Computer : GigaByte X570 AORUS PRO WIFI Default string
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U31-C15T1 
+System Timer : 10MHz
+Block Size : 341.07kB
+
+Processor
+Model : AMD Ryzen 9 3950X 16-Core Processor
+Speed : 4.27GHz (90%)
+Min/Max/Turbo Speed : 2.2GHz - 3.5GHz - 4.7GHz
+Maximum Power : 60.104W - 144.966W
+Cores per Processor : 16 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 16x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 16x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 16x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 4x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.8GHz (100%)
+Min/Max/Turbo Speed : 900MHz - 1.8GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.
