@@ -1,43 +1,39 @@
 SiSoftware Sandra
 
 Benchmark Results
-Aggregate Native Performance : 292.39GOPS
-Dhrystone Integer Native AVX2 : 391.14GIPS
-Dhrystone Long Native AVX2 : 389.19GIPS
-Whetstone Single-float Native AVX/FMA : 235.8GFLOPS
-Whetstone Double-float Native AVX/FMA : 202.58GFLOPS
-
-Aggregate Native Performance
-Dhrystone Aggregated-int Native : 390.17GFLOPS
-Whetstone Aggregated-float Native : 218.56GFLOPS
+Aggregate Multi-Media Native Performance : 74.23MPix/s
+Multi-Media Integer Native x32 AVX2 : 91.92MPix/s
+Multi-Media Long-int Native x16 AVX2 : 40.87MPix/s
+Multi-Media Quad-int Native x1 ALU : 975kPix/s
+Multi-Media Single-float Native x16 FMA : 82.51MPix/s
+Multi-Media Double-float Native x8 FMA : 53.92MPix/s
+Multi-Media Quad-float Native x4 FMA : 2.2MPix/s
 Results Interpretation : Higher Scores mean Better Performance.
-Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
 
-Performance per Thread
-Aggregate Native Performance : 18.27GOPS
-Dhrystone Integer Native : 24.45GIPS
-Dhrystone Long Native : 24.32GIPS
-Whetstone Single-float Native : 14.74GFLOPS
-Whetstone Double-float Native : 12.66GFLOPS
-No. Threads : 16
-Results Interpretation : Higher Scores mean Better Performance.
-Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+Aggregate Multi-Media Native Performance
+Multi-Media Aggregate-int Native : 61.29MPix/s
+Multi-Media Aggregate-float Native : 66.7MPix/s
 
 Performance vs. Power
-Processor(s) Power : 128.500W
-Aggregate Native Performance : 2275.38MOPS/W
-Dhrystone Integer Native : 3043.91MIPS/W
-Dhrystone Long Native : 3028.72MIPS/W
-Whetstone Single-float Native : 1835.07MFLOPS/W
-Whetstone Double-float Native : 1576.50MFLOPS/W
+Processor(s) Power : 129.950W
+Aggregate Multi-Media Native Performance : 571.19kPix/s/W
+Multi-Media Integer Native : 707.33kPix/s/W
+Multi-Media Long-int Native : 314.51kPix/s/W
+Multi-Media Quad-int Native : 7.50kPix/s/W
+Multi-Media Single-float Native : 634.92kPix/s/W
+Multi-Media Double-float Native : 414.95kPix/s/W
+Multi-Media Quad-float Native : 16.94kPix/s/W
 Results Interpretation : Higher Scores mean Better Performance.
 
 Performance vs. Speed
-Aggregate Native Performance : 66.20MOPS/MHz
-Dhrystone Integer Native : 88.55MIPS/MHz
-Dhrystone Long Native : 88.11MIPS/MHz
-Whetstone Single-float Native : 53.39MFLOPS/MHz
-Whetstone Double-float Native : 45.86MFLOPS/MHz
+Aggregate Multi-Media Native Performance : 16.80kPix/s/MHz
+Multi-Media Integer Native : 20.81kPix/s/MHz
+Multi-Media Long-int Native : 9.25kPix/s/MHz
+Multi-Media Quad-int Native : 0.22kPix/s/MHz
+Multi-Media Single-float Native : 18.68kPix/s/MHz
+Multi-Media Double-float Native : 12.21kPix/s/MHz
+Multi-Media Quad-float Native : 0.50kPix/s/MHz
 Results Interpretation : Higher Scores mean Better Performance.
 
 Benchmark Status
@@ -45,17 +41,23 @@ Result ID : AMD Ryzen 7 3800X 8-Core Processor (8C 16T 4.42GHz, 1.6GHz IMC, 8x 5
 Microcode : MU8F710013
 Computer : ASUS PRIME X570-PRO
 Platform Compliance : x64
-NUMA Support : No
-No. Threads : 16
-Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U12-C6T0 U14-C7T0 U1-C0T1 U3-C1T1 U5-C2T1 U7-C3T1 U9-C4T1 U11-C5T1 U13-C6T1 U15-C7T1 
+No. Threads : 1
+Processor Affinity : U15-C7T1 
 System Timer : 10MHz
-No. Runs : 64000 / 640
+
+Rendered Image Size
+Integer Int32 : 1280x720
+Long Integer Int64 : 1280x720
+Quad Integer Int128 : 1280x720
+Single-Float FP32 : 1280x720
+Double-Float FP64 : 1280x720
+Quad-Float FP128 : 1280x720
 
 Processor
 Model : AMD Ryzen 7 3800X 8-Core Processor
 Speed : 4.42GHz (99%)
-Min/Max/Turbo Speed : 2.2GHz - 3.9GHz - 4.42GHz
-Maximum Power : 66.973W - 128.498W
+Min/Max/Turbo Speed : 2.2GHz - 3.9GHz - 4.45GHz
+Maximum Power : 66.973W - 129.954W
 Cores per Processor : 8 Unit(s)
 Cores per Compute Unit : 2 Unit(s)
 Front Side Bus Speed : 100MHz
@@ -84,4 +86,5 @@ HTT - Hyper-Threading Technology : Yes
 
 Performance Enhancing Tips
 Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Warning 5003 : Benchmark has measured single-processor performance only.
 Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.
