@@ -48,6 +48,33 @@ const benchMarks = [
         'data': [ 773.18, 389.19, 290.08 ]
       }
     ]
+  },
+  {
+    'name': 'Aggregate Native Performance per thread',
+    'datasets': [
+      {
+        'label': 'GIPS',
+        'data': [ 18.15, 18.27, 17.63 ]
+      }
+    ]
+  },
+  {
+    'name': 'Aggregate Native Performance per MHz',
+    'datasets': [
+      {
+        'label': 'MOPS/MHz',
+        'data': [ 127.21, 66.20, 42.24 ]
+      }
+    ]
+  },
+  {
+    'name': 'Aggregate Native Performance per Watt',
+    'datasets': [
+      {
+        'label': 'MOPS/W',
+        'data': [ 4228.72, 2275.38, 1488.24 ]
+      }
+    ]
   }
 ]
 
