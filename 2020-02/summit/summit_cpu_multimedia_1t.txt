@@ -1,0 +1,91 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Multi-Media Native Performance : 74MPix/s
+Multi-Media Integer Native x32 AVX2 : 92.19MPix/s
+Multi-Media Long-int Native x16 AVX2 : 41.16MPix/s
+Multi-Media Quad-int Native x1 ALU : 967kPix/s
+Multi-Media Single-float Native x16 FMA : 86.52MPix/s
+Multi-Media Double-float Native x8 FMA : 50.7MPix/s
+Multi-Media Quad-float Native x4 FMA : 2.1MPix/s
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Aggregate Multi-Media Native Performance
+Multi-Media Aggregate-int Native : 61.6MPix/s
+Multi-Media Aggregate-float Native : 66.23MPix/s
+
+Performance vs. Power
+Processor(s) Power : 131.420W
+Aggregate Multi-Media Native Performance : 562.68kPix/s/W
+Multi-Media Integer Native : 701.50kPix/s/W
+Multi-Media Long-int Native : 313.23kPix/s/W
+Multi-Media Quad-int Native : 7.36kPix/s/W
+Multi-Media Single-float Native : 658.32kPix/s/W
+Multi-Media Double-float Native : 385.77kPix/s/W
+Multi-Media Quad-float Native : 15.97kPix/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Multi-Media Native Performance : 21.67kPix/s/MHz
+Multi-Media Integer Native : 27.01kPix/s/MHz
+Multi-Media Long-int Native : 12.06kPix/s/MHz
+Multi-Media Quad-int Native : 0.28kPix/s/MHz
+Multi-Media Single-float Native : 25.35kPix/s/MHz
+Multi-Media Double-float Native : 14.85kPix/s/MHz
+Multi-Media Quad-float Native : 0.62kPix/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Benchmark Status
+Result ID : AMD Ryzen 9 3950X 16-Core Processor (16C 32T 3.41GHz/4.47GHz, 1.8GHz IMC, 16x 512kB L2, 4x 16MB L3)
+Microcode : MU8F710013
+Computer : GigaByte X570 AORUS PRO WIFI Default string
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U31-C15T1 
+System Timer : 10MHz
+
+Rendered Image Size
+Integer Int32 : 1280x720
+Long Integer Int64 : 1280x720
+Quad Integer Int128 : 1280x720
+Single-Float FP32 : 1280x720
+Double-Float FP64 : 1280x720
+Quad-Float FP128 : 1280x720
+
+Processor
+Model : AMD Ryzen 9 3950X 16-Core Processor
+Speed : 3.41GHz (76%)
+Min/Max/Turbo Speed : 2.2GHz - 3.5GHz - 4.47GHz
+Maximum Power : 60.104W - 131.418W
+Cores per Processor : 16 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 16x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 16x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 16x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 4x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.8GHz (100%)
+Min/Max/Turbo Speed : 900MHz - 1.8GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
+AVX - Advanced Vector eXtensions : Yes
+FMA3 - Fused Multiply/Add eXtensions : Yes
+AVX2 - Advanced Vector eXtensions v2 : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Tip 223 : CPU speed, under load, lower than rated speed. Check power management settings.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.
