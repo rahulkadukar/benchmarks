@@ -1,0 +1,148 @@
+SiSoftware Sandra
+
+Benchmark Results
+Inter-Core Bandwidth : 44.37GB/s
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Benchmark Results
+Inter-Core Latency : 35.9ns
+Results Interpretation : Lower Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1s = 1000ms, 1ms = 1000µs, 1µs = 1000ns, etc.
+
+Performance per Thread
+Inter-Core Bandwidth : 3.7GB/s
+No. Threads : 12
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 142.190W
+Inter-Core Bandwidth : 319.57MB/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+Inter-Core Latency : 2.52ns/W
+Results Interpretation : Lower Scores mean Better Performance.
+
+Capacity vs. Power
+Total Cache Size : 98.57kB/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Inter-Core Bandwidth : 9.07MB/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+Inter-Core Latency : 0.07ns/MHz
+Results Interpretation : Lower Scores mean Better Performance.
+
+Detailed Results
+Processor Affinity : U0-U1 U2-U3 U4-U5 U6-U7 U8-U9 U10-U11 
+U0-U2 Data Latency : 38.8ns
+U0-U4 Data Latency : 39.2ns
+U0-U6 Data Latency : 38.8ns
+U0-U8 Data Latency : 37.8ns
+U0-U10 Data Latency : 38.4ns
+U0-U1 Data Latency : 13.6ns
+U0-U3 Data Latency : 39.3ns
+U0-U5 Data Latency : 39.2ns
+U0-U7 Data Latency : 39.1ns
+U0-U9 Data Latency : 37.8ns
+U0-U11 Data Latency : 37.5ns
+U2-U4 Data Latency : 37.6ns
+U2-U6 Data Latency : 38.9ns
+U2-U8 Data Latency : 38.9ns
+U2-U10 Data Latency : 37.9ns
+U2-U1 Data Latency : 38.8ns
+U2-U3 Data Latency : 13.6ns
+U2-U5 Data Latency : 39.1ns
+U2-U7 Data Latency : 39.1ns
+U2-U9 Data Latency : 39.0ns
+U2-U11 Data Latency : 37.8ns
+U4-U6 Data Latency : 38.6ns
+U4-U8 Data Latency : 38.4ns
+U4-U10 Data Latency : 38.2ns
+U4-U1 Data Latency : 39.0ns
+U4-U3 Data Latency : 38.1ns
+U4-U5 Data Latency : 13.5ns
+U4-U7 Data Latency : 38.8ns
+U4-U9 Data Latency : 37.9ns
+U4-U11 Data Latency : 38.3ns
+U6-U8 Data Latency : 37.4ns
+U6-U10 Data Latency : 37.0ns
+U6-U1 Data Latency : 38.3ns
+U6-U3 Data Latency : 37.7ns
+U6-U5 Data Latency : 37.8ns
+U6-U7 Data Latency : 13.5ns
+U6-U9 Data Latency : 37.7ns
+U6-U11 Data Latency : 36.4ns
+U8-U10 Data Latency : 37.0ns
+U8-U1 Data Latency : 37.8ns
+U8-U3 Data Latency : 37.0ns
+U8-U5 Data Latency : 36.9ns
+U8-U7 Data Latency : 37.0ns
+U8-U9 Data Latency : 13.7ns
+U8-U11 Data Latency : 37.0ns
+U10-U1 Data Latency : 39.0ns
+U10-U3 Data Latency : 38.5ns
+U10-U5 Data Latency : 38.2ns
+U10-U7 Data Latency : 39.9ns
+U10-U9 Data Latency : 37.5ns
+U10-U11 Data Latency : 13.5ns
+U1-U3 Data Latency : 39.7ns
+U1-U5 Data Latency : 38.5ns
+U1-U7 Data Latency : 39.3ns
+U1-U9 Data Latency : 38.8ns
+U1-U11 Data Latency : 37.9ns
+U3-U5 Data Latency : 37.9ns
+U3-U7 Data Latency : 38.6ns
+U3-U9 Data Latency : 38.8ns
+U3-U11 Data Latency : 38.0ns
+U5-U7 Data Latency : 38.4ns
+U5-U9 Data Latency : 37.5ns
+U5-U11 Data Latency : 38.3ns
+U7-U9 Data Latency : 36.7ns
+U7-U11 Data Latency : 36.3ns
+U9-U11 Data Latency : 36.7ns
+1x 64bytes Blocks Bandwidth : 6.84GB/s
+4x 64bytes Blocks Bandwidth : 14.12GB/s
+4x 256bytes Blocks Bandwidth : 54.74GB/s
+4x 1kB Blocks Bandwidth : 162.8GB/s
+4x 4kB Blocks Bandwidth : 256.83GB/s
+16x 4kB Blocks Bandwidth : 187.81GB/s
+4x 64kB Blocks Bandwidth : 211GB/s
+16x 64kB Blocks Bandwidth : 179.9GB/s
+8x 256kB Blocks Bandwidth : 77.15GB/s
+4x 1MB Blocks Bandwidth : 10.08GB/s
+8x 1MB Blocks Bandwidth : 7.38GB/s
+8x 4MB Blocks Bandwidth : 6.45GB/s
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-8086K CPU @ 4.00GHz (6C 12T 5GHz, 4.7GHz IMC, 6x 256kB L2, 12MB L3)
+Microcode : MU069E0A96
+Computer : ASRock Z390 Phantom Gaming 9
+Platform Compliance : x64
+Buffering Used : No
+No. Threads : 12
+System Timer : 10MHz
+
+Processor
+Model : Intel(R) Core(TM) i7-8086K CPU @ 4.00GHz
+Speed : 5GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 4GHz - 5GHz
+Maximum Power : 95.000W - 142.188W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 9E / A
+Microcode : MU069E0A96
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 4-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 12MB, ECC, 16-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 4.7GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 4.7GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

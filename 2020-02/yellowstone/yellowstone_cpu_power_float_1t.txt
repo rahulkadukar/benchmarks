@@ -1,0 +1,108 @@
+SiSoftware Sandra
+
+Benchmark Results
+FPU (Floating-Point) Power Efficiency : 6GFLOPS
+Power Efficiency : 3.52
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 142.190W
+FPU (Floating-Point) Power Efficiency : 42.61GFLOPS/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+FPU (Floating-Point) Power Efficiency : 1.21GFLOPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Power Management Status
+Mains (AC) Line Status : On-Line
+Processor performance boost policy : 60 %
+Minimum processor state : 5 %
+System cooling policy : Active
+Maximum processor state : 100 %
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-8086K CPU @ 4.00GHz (6C 12T 5GHz, 4.7GHz IMC, 6x 256kB L2, 12MB L3)
+Microcode : MU069E0A96
+Computer : ASRock Z390 Phantom Gaming 9
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U11-C5T1 
+System Timer : 10MHz
+
+200MFLOPS
+Average Clock Ratio : 34% (1.36GHz)
+Average Voltage Ratio : 56% (0.775V)
+
+300MFLOPS
+Average Clock Ratio : 41% (1.64GHz)
+Average Voltage Ratio : 59% (0.817V)
+
+500MFLOPS
+Average Clock Ratio : 56% (2.24GHz)
+Average Voltage Ratio : 66% (0.914V)
+
+700MFLOPS
+Average Clock Ratio : 61% (2.44GHz)
+Average Voltage Ratio : 67% (0.928V)
+
+1GFLOPS
+Average Clock Ratio : 52% (2.08GHz)
+Average Voltage Ratio : 63% (0.872V)
+
+1.5GFLOPS
+Average Clock Ratio : 39% (1.56GHz)
+Average Voltage Ratio : 57% (0.789V)
+
+2GFLOPS
+Average Clock Ratio : 47% (1.88GHz)
+Average Voltage Ratio : 59% (0.817V)
+
+3GFLOPS
+Average Clock Ratio : 61% (2.44GHz)
+Average Voltage Ratio : 63% (0.872V)
+
+5GFLOPS
+Average Clock Ratio : 71% (2.85GHz)
+Average Voltage Ratio : 66% (0.914V)
+
+7GFLOPS
+Average Clock Ratio : 116% (4.65GHz)
+Average Voltage Ratio : 90% (1.246V)
+
+10GFLOPS
+Average Clock Ratio : 107% (4.29GHz)
+Average Voltage Ratio : 85% (1.177V)
+
+15GFLOPS
+Average Clock Ratio : 115% (4.61GHz)
+Average Voltage Ratio : 89% (1.232V)
+
+20GFLOPS
+Average Clock Ratio : 123% (4.93GHz)
+Average Voltage Ratio : 96% (1.329V)
+
+Processor
+Model : Intel(R) Core(TM) i7-8086K CPU @ 4.00GHz
+Speed : 5GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 4GHz - 5GHz
+Maximum Power : 95.000W - 142.188W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 9E / A
+Microcode : MU069E0A96
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 4-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 12MB, ECC, 16-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 4.7GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 4.7GHz
+
+Performance Enhancing Tips
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

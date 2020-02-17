@@ -1,0 +1,202 @@
+SiSoftware Sandra
+
+Benchmark Results
+Inter-Core Bandwidth : 59GB/s
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Benchmark Results
+Inter-Core Latency : 57.6ns
+Results Interpretation : Lower Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1s = 1000ms, 1ms = 1000µs, 1µs = 1000ns, etc.
+
+Performance per Thread
+Inter-Core Bandwidth : 3.69GB/s
+No. Threads : 16
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 143.430W
+Inter-Core Bandwidth : 421.36MB/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+Inter-Core Latency : 4.02ns/W
+Results Interpretation : Lower Scores mean Better Performance.
+
+Capacity vs. Power
+Total Cache Size : 517.60kB/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Inter-Core Bandwidth : 14.00MB/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+Inter-Core Latency : 0.13ns/MHz
+Results Interpretation : Lower Scores mean Better Performance.
+
+Detailed Results
+Processor Affinity : U0-U2 U4-U6 U8-U10 U12-U14 U16-U18 U20-U22 U24-U26 U28-U30 
+U0-U2 Data Latency : 26.0ns
+U0-U4 Data Latency : 26.5ns
+U0-U6 Data Latency : 27.2ns
+U0-U8 Data Latency : 70.6ns
+U0-U10 Data Latency : 67.5ns
+U0-U12 Data Latency : 68.2ns
+U0-U14 Data Latency : 67.4ns
+U0-U16 Data Latency : 68.3ns
+U0-U18 Data Latency : 69.2ns
+U0-U20 Data Latency : 65.3ns
+U0-U22 Data Latency : 66.3ns
+U0-U24 Data Latency : 59.4ns
+U0-U26 Data Latency : 66.8ns
+U0-U28 Data Latency : 66.3ns
+U0-U30 Data Latency : 58.7ns
+U2-U4 Data Latency : 26.4ns
+U2-U6 Data Latency : 26.3ns
+U2-U8 Data Latency : 67.1ns
+U2-U10 Data Latency : 68.1ns
+U2-U12 Data Latency : 66.9ns
+U2-U14 Data Latency : 66.5ns
+U2-U16 Data Latency : 71.2ns
+U2-U18 Data Latency : 65.7ns
+U2-U20 Data Latency : 65.8ns
+U2-U22 Data Latency : 67.3ns
+U2-U24 Data Latency : 57.1ns
+U2-U26 Data Latency : 63.4ns
+U2-U28 Data Latency : 58.9ns
+U2-U30 Data Latency : 60.9ns
+U4-U6 Data Latency : 27.0ns
+U4-U8 Data Latency : 66.5ns
+U4-U10 Data Latency : 60.8ns
+U4-U12 Data Latency : 67.3ns
+U4-U14 Data Latency : 68.1ns
+U4-U16 Data Latency : 59.7ns
+U4-U18 Data Latency : 59.6ns
+U4-U20 Data Latency : 65.2ns
+U4-U22 Data Latency : 59.7ns
+U4-U24 Data Latency : 66.5ns
+U4-U26 Data Latency : 69.8ns
+U4-U28 Data Latency : 67.3ns
+U4-U30 Data Latency : 65.1ns
+U6-U8 Data Latency : 60.8ns
+U6-U10 Data Latency : 67.0ns
+U6-U12 Data Latency : 66.6ns
+U6-U14 Data Latency : 67.3ns
+U6-U16 Data Latency : 65.4ns
+U6-U18 Data Latency : 65.3ns
+U6-U20 Data Latency : 62.6ns
+U6-U22 Data Latency : 62.6ns
+U6-U24 Data Latency : 68.6ns
+U6-U26 Data Latency : 68.6ns
+U6-U28 Data Latency : 68.5ns
+U6-U30 Data Latency : 66.2ns
+U8-U10 Data Latency : 25.9ns
+U8-U12 Data Latency : 25.9ns
+U8-U14 Data Latency : 26.5ns
+U8-U16 Data Latency : 63.2ns
+U8-U18 Data Latency : 65.4ns
+U8-U20 Data Latency : 67.6ns
+U8-U22 Data Latency : 63.4ns
+U8-U24 Data Latency : 67.0ns
+U8-U26 Data Latency : 68.4ns
+U8-U28 Data Latency : 62.8ns
+U8-U30 Data Latency : 65.7ns
+U10-U12 Data Latency : 26.4ns
+U10-U14 Data Latency : 26.2ns
+U10-U16 Data Latency : 59.6ns
+U10-U18 Data Latency : 68.2ns
+U10-U20 Data Latency : 65.9ns
+U10-U22 Data Latency : 62.9ns
+U10-U24 Data Latency : 67.4ns
+U10-U26 Data Latency : 69.5ns
+U10-U28 Data Latency : 67.7ns
+U10-U30 Data Latency : 59.7ns
+U12-U14 Data Latency : 27.1ns
+U12-U16 Data Latency : 60.2ns
+U12-U18 Data Latency : 63.8ns
+U12-U20 Data Latency : 61.5ns
+U12-U22 Data Latency : 64.9ns
+U12-U24 Data Latency : 58.8ns
+U12-U26 Data Latency : 63.2ns
+U12-U28 Data Latency : 67.6ns
+U12-U30 Data Latency : 66.7ns
+U14-U16 Data Latency : 58.3ns
+U14-U18 Data Latency : 63.2ns
+U14-U20 Data Latency : 68.7ns
+U14-U22 Data Latency : 67.0ns
+U14-U24 Data Latency : 63.7ns
+U14-U26 Data Latency : 58.6ns
+U14-U28 Data Latency : 62.0ns
+U14-U30 Data Latency : 65.0ns
+U16-U18 Data Latency : 26.7ns
+U16-U20 Data Latency : 27.1ns
+U16-U22 Data Latency : 27.1ns
+U16-U24 Data Latency : 63.6ns
+U16-U26 Data Latency : 70.5ns
+U16-U28 Data Latency : 66.6ns
+U16-U30 Data Latency : 67.7ns
+U18-U20 Data Latency : 27.4ns
+U18-U22 Data Latency : 26.2ns
+U18-U24 Data Latency : 67.7ns
+U18-U26 Data Latency : 64.0ns
+U18-U28 Data Latency : 62.6ns
+U18-U30 Data Latency : 67.7ns
+U20-U22 Data Latency : 28.3ns
+U20-U24 Data Latency : 67.8ns
+U20-U26 Data Latency : 65.5ns
+U20-U28 Data Latency : 67.0ns
+U20-U30 Data Latency : 67.0ns
+U22-U24 Data Latency : 68.1ns
+U22-U26 Data Latency : 68.8ns
+U22-U28 Data Latency : 66.7ns
+U22-U30 Data Latency : 68.0ns
+U24-U26 Data Latency : 26.8ns
+U24-U28 Data Latency : 27.5ns
+U24-U30 Data Latency : 27.4ns
+U26-U28 Data Latency : 27.4ns
+U26-U30 Data Latency : 27.3ns
+U28-U30 Data Latency : 28.3ns
+1x 64bytes Blocks Bandwidth : 2.49GB/s
+4x 64bytes Blocks Bandwidth : 5.87GB/s
+4x 256bytes Blocks Bandwidth : 22GB/s
+4x 1kB Blocks Bandwidth : 72.46GB/s
+4x 4kB Blocks Bandwidth : 110.6GB/s
+16x 4kB Blocks Bandwidth : 125.2GB/s
+4x 64kB Blocks Bandwidth : 152.53GB/s
+16x 64kB Blocks Bandwidth : 217GB/s
+8x 256kB Blocks Bandwidth : 393.77GB/s
+4x 1MB Blocks Bandwidth : 379.56GB/s
+8x 1MB Blocks Bandwidth : 81.73GB/s
+8x 4MB Blocks Bandwidth : 13.67GB/s
+
+Benchmark Status
+Result ID : AMD Ryzen 9 3950X 16-Core Processor (16C 32T 4.32GHz/4.67GHz, 1.8GHz IMC, 16x 512kB L2, 4x 16MB L3)
+Microcode : MU8F710013
+Computer : GigaByte X570 AORUS PRO WIFI Default string
+Platform Compliance : x64
+Buffering Used : No
+No. Threads : 16
+System Timer : 10MHz
+
+Processor
+Model : AMD Ryzen 9 3950X 16-Core Processor
+Speed : 4.32GHz (92%)
+Min/Max/Turbo Speed : 2.2GHz - 3.5GHz - 4.67GHz
+Maximum Power : 60.104W - 143.428W
+Cores per Processor : 16 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 16x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 16x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 16x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 4x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.8GHz (100%)
+Min/Max/Turbo Speed : 900MHz - 1.8GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

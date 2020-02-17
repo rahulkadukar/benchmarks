@@ -1,0 +1,80 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Image Processing Rate : 58.47MPix/s
+Blur: Convolution (3x3) Filter x8 AVX2/FMA : 294.38MPix/s
+Sharpen: Convolution (5x5) Filter x8 AVX2/FMA : 117.77MPix/s
+Motion Blur: Convolution (7x7) Filter x8 AVX2/FMA : 62.59MPix/s
+Edge Detection: Sobel (2*5x5) Filter x8 AVX2/FMA : 99.9MPix/s
+Noise Reduction: Median (5x5) Filter x8 AVX2/FMA : 7MPix/s
+Oil Painting: Quantise (9x9) Filter x8 AVX2/FMA : 3MPix/s
+Diffusion: Randomise (256) Filter x8 AVX2/FMA : 311.31MPix/s
+Marbling: Perlin 2D Noise Filter (3o) x8 AVX2/FMA : 33.47MPix/s
+Type : Floating-Point (Normal Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 138.860W
+Aggregate Image Processing Rate : 421.04kPix/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Image Processing Rate : 13.63kPix/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Rendered Image Size
+Blur: Convolution (3x3) Filter : 1024x1024
+Sharpen: Convolution (5x5) Filter : 1024x1024
+Motion Blur: Convolution (7x7) Filter : 1024x1024
+Edge Detection: Sobel (2*5x5) Filter : 1024x1024
+Noise Reduction: Median (5x5) Filter : 1024x1024
+Oil Painting: Quantise (9x9) Filter : 1024x1024
+Diffusion: Randomise (256) Filter : 1024x1024
+Marbling: Perlin 2D Noise Filter (3o) : 1024x1024
+
+Benchmark Status
+Result ID : AMD Ryzen 9 3950X 16-Core Processor (16C 32T 4.29GHz/4.6GHz, 1.8GHz IMC, 16x 512kB L2, 4x 16MB L3)
+Microcode : MU8F710013
+Computer : GigaByte X570 AORUS PRO WIFI Default string
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U31-C15T1 
+System Timer : 10MHz
+
+Processor
+Model : AMD Ryzen 9 3950X 16-Core Processor
+Speed : 4.29GHz (93%)
+Min/Max/Turbo Speed : 2.2GHz - 3.5GHz - 4.6GHz
+Maximum Power : 60.104W - 138.862W
+Cores per Processor : 16 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 16x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 16x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 16x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 4x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.8GHz (100%)
+Min/Max/Turbo Speed : 900MHz - 1.8GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
+AVX - Advanced Vector eXtensions : Yes
+FMA3 - Fused Multiply/Add eXtensions : Yes
+AVX2 - Advanced Vector eXtensions v2 : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

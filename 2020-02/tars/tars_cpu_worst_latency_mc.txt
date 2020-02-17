@@ -1,0 +1,110 @@
+SiSoftware Sandra
+
+Benchmark Results
+Inter-Core Bandwidth : 5.66GB/s
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Benchmark Results
+Inter-Core Latency : 56.4ns
+Results Interpretation : Lower Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1s = 1000ms, 1ms = 1000µs, 1µs = 1000ns, etc.
+
+Performance per Thread
+Inter-Core Bandwidth : 724MB/s
+No. Threads : 8
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 128.500W
+Inter-Core Bandwidth : 45.07MB/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+Inter-Core Latency : 4.39ns/W
+Results Interpretation : Lower Scores mean Better Performance.
+
+Capacity vs. Power
+Total Cache Size : 288.87kB/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Inter-Core Bandwidth : 1.32MB/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+Inter-Core Latency : 0.13ns/MHz
+Results Interpretation : Lower Scores mean Better Performance.
+
+Detailed Results
+Processor Affinity : U0-U8 U2-U10 U4-U14 U6-U12 
+U0-U2 Data Latency : 26.7ns
+U0-U4 Data Latency : 27.0ns
+U0-U6 Data Latency : 26.8ns
+U0-U8 Data Latency : 80.3ns
+U0-U10 Data Latency : 77.6ns
+U0-U12 Data Latency : 76.7ns
+U0-U14 Data Latency : 76.8ns
+U2-U4 Data Latency : 26.9ns
+U2-U6 Data Latency : 26.9ns
+U2-U8 Data Latency : 80.9ns
+U2-U10 Data Latency : 81.9ns
+U2-U12 Data Latency : 77.6ns
+U2-U14 Data Latency : 78.4ns
+U4-U6 Data Latency : 27.2ns
+U4-U8 Data Latency : 79.5ns
+U4-U10 Data Latency : 76.1ns
+U4-U12 Data Latency : 77.4ns
+U4-U14 Data Latency : 80.6ns
+U6-U8 Data Latency : 76.6ns
+U6-U10 Data Latency : 80.4ns
+U6-U12 Data Latency : 76.9ns
+U6-U14 Data Latency : 77.1ns
+U8-U10 Data Latency : 26.4ns
+U8-U12 Data Latency : 27.3ns
+U8-U14 Data Latency : 27.0ns
+U10-U12 Data Latency : 27.1ns
+U10-U14 Data Latency : 27.2ns
+U12-U14 Data Latency : 27.5ns
+1x 64bytes Blocks Bandwidth : 394MB/s
+4x 64bytes Blocks Bandwidth : 1.21GB/s
+4x 256bytes Blocks Bandwidth : 3.43GB/s
+4x 1kB Blocks Bandwidth : 8.19GB/s
+4x 4kB Blocks Bandwidth : 9.35GB/s
+16x 4kB Blocks Bandwidth : 8.71GB/s
+4x 64kB Blocks Bandwidth : 9.19GB/s
+16x 64kB Blocks Bandwidth : 9.48GB/s
+8x 256kB Blocks Bandwidth : 9.58GB/s
+4x 1MB Blocks Bandwidth : 9.58GB/s
+8x 1MB Blocks Bandwidth : 10.53GB/s
+8x 4MB Blocks Bandwidth : 12GB/s
+
+Benchmark Status
+Result ID : AMD Ryzen 7 3800X 8-Core Processor (8C 16T 4.39GHz, 1.6GHz IMC, 8x 512kB L2, 2x 16MB L3)
+Microcode : MU8F710013
+Computer : ASUS PRIME X570-PRO
+Platform Compliance : x64
+Buffering Used : No
+No. Threads : 8
+System Timer : 10MHz
+
+Processor
+Model : AMD Ryzen 7 3800X 8-Core Processor
+Speed : 4.39GHz (99%)
+Min/Max/Turbo Speed : 2.2GHz - 3.9GHz - 4.42GHz
+Maximum Power : 66.973W - 128.498W
+Cores per Processor : 8 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 8x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 2x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 1.6GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

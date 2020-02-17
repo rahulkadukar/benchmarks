@@ -1,0 +1,137 @@
+SiSoftware Sandra
+
+Benchmark Results
+ALU (Integer) Power Efficiency : 38.33GIPS
+Power Efficiency : 1.40
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance per Thread
+ALU (Integer) Power Efficiency : 2.4GIPS
+No. Threads : 16
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 128.500W
+ALU (Integer) Power Efficiency : 298.25GIPS/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+ALU (Integer) Power Efficiency : 9.14GIPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Power Management Status
+Mains (AC) Line Status : On-Line
+Processor performance boost policy : 60 %
+Minimum processor state : 5 %
+System cooling policy : Active
+Maximum processor state : 100 %
+
+Benchmark Status
+Result ID : AMD Ryzen 7 3800X 8-Core Processor (8C 16T 4.19GHz/4.42GHz, 1.6GHz IMC, 8x 512kB L2, 2x 16MB L3)
+Microcode : MU8F710013
+Computer : ASUS PRIME X570-PRO
+Platform Compliance : x64
+No. Threads : 16
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U12-C6T0 U14-C7T0 U1-C0T1 U3-C1T1 U5-C2T1 U7-C3T1 U9-C4T1 U11-C5T1 U13-C6T1 U15-C7T1 
+System Timer : 10MHz
+
+200MIPS
+Average Clock Ratio : 72% (2.81GHz)
+Average Voltage Ratio : 84% (0.924V)
+
+300MIPS
+Average Clock Ratio : 72% (2.81GHz)
+Average Voltage Ratio : 82% (0.902V)
+
+500MIPS
+Average Clock Ratio : 76% (3GHz)
+Average Voltage Ratio : 85% (0.935V)
+
+700MIPS
+Average Clock Ratio : 78% (3GHz)
+Average Voltage Ratio : 84% (0.924V)
+
+1GIPS
+Average Clock Ratio : 80% (3.12GHz)
+Average Voltage Ratio : 84% (0.924V)
+
+1.5GIPS
+Average Clock Ratio : 85% (3.31GHz)
+Average Voltage Ratio : 86% (0.946V)
+
+2GIPS
+Average Clock Ratio : 91% (3.55GHz)
+Average Voltage Ratio : 88% (0.968V)
+
+3GIPS
+Average Clock Ratio : 95% (3.7GHz)
+Average Voltage Ratio : 90% (0.990V)
+
+5GIPS
+Average Clock Ratio : 101% (4GHz)
+Average Voltage Ratio : 96% (1.056V)
+
+7GIPS
+Average Clock Ratio : 102% (4GHz)
+Average Voltage Ratio : 98% (1.078V)
+
+10GIPS
+Average Clock Ratio : 107% (4.17GHz)
+Average Voltage Ratio : 99% (1.089V)
+
+15GIPS
+Average Clock Ratio : 108% (4.21GHz)
+Average Voltage Ratio : 109% (1.199V)
+
+20GIPS
+Average Clock Ratio : 106% (4.13GHz)
+Average Voltage Ratio : 116% (1.276V)
+
+30GIPS
+Average Clock Ratio : 93% (3.63GHz)
+Average Voltage Ratio : 93% (1.023V)
+
+50GIPS
+Average Clock Ratio : 100% (3.9GHz)
+Average Voltage Ratio : 103% (1.133V)
+
+70GIPS
+Average Clock Ratio : 101% (4GHz)
+Average Voltage Ratio : 106% (1.166V)
+
+100GIPS
+Average Clock Ratio : 103% (4GHz)
+Average Voltage Ratio : 111% (1.221V)
+
+150GIPS
+Average Clock Ratio : 105% (4.1GHz)
+Average Voltage Ratio : 116% (1.276V)
+
+200GIPS
+Average Clock Ratio : 106% (4.13GHz)
+Average Voltage Ratio : 117% (1.287V)
+
+Processor
+Model : AMD Ryzen 7 3800X 8-Core Processor
+Speed : 4.19GHz (94%)
+Min/Max/Turbo Speed : 2.2GHz - 3.9GHz - 4.42GHz
+Maximum Power : 66.973W - 128.498W
+Cores per Processor : 8 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 8x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 2x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 1.6GHz
+
+Performance Enhancing Tips
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

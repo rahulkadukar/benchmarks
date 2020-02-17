@@ -1,0 +1,137 @@
+SiSoftware Sandra
+
+Benchmark Results
+FPU (Floating-Point) Power Efficiency : 41.07GFLOPS
+Power Efficiency : 1.38
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance per Thread
+FPU (Floating-Point) Power Efficiency : 2.57GFLOPS
+No. Threads : 16
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 128.500W
+FPU (Floating-Point) Power Efficiency : 319.62GFLOPS/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+FPU (Floating-Point) Power Efficiency : 10.03GFLOPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Power Management Status
+Mains (AC) Line Status : On-Line
+Processor performance boost policy : 60 %
+Minimum processor state : 5 %
+System cooling policy : Active
+Maximum processor state : 100 %
+
+Benchmark Status
+Result ID : AMD Ryzen 7 3800X 8-Core Processor (8C 16T 4.09GHz/4.42GHz, 1.6GHz IMC, 8x 512kB L2, 2x 16MB L3)
+Microcode : MU8F710013
+Computer : ASUS PRIME X570-PRO
+Platform Compliance : x64
+No. Threads : 16
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U12-C6T0 U14-C7T0 U1-C0T1 U3-C1T1 U5-C2T1 U7-C3T1 U9-C4T1 U11-C5T1 U13-C6T1 U15-C7T1 
+System Timer : 10MHz
+
+200MFLOPS
+Average Clock Ratio : 74% (2.89GHz)
+Average Voltage Ratio : 83% (0.913V)
+
+300MFLOPS
+Average Clock Ratio : 75% (2.92GHz)
+Average Voltage Ratio : 79% (0.869V)
+
+500MFLOPS
+Average Clock Ratio : 81% (3.16GHz)
+Average Voltage Ratio : 83% (0.913V)
+
+700MFLOPS
+Average Clock Ratio : 81% (3.16GHz)
+Average Voltage Ratio : 83% (0.913V)
+
+1GFLOPS
+Average Clock Ratio : 87% (3.39GHz)
+Average Voltage Ratio : 88% (0.968V)
+
+1.5GFLOPS
+Average Clock Ratio : 92% (3.59GHz)
+Average Voltage Ratio : 90% (0.990V)
+
+2GFLOPS
+Average Clock Ratio : 96% (3.74GHz)
+Average Voltage Ratio : 91% (1.001V)
+
+3GFLOPS
+Average Clock Ratio : 100% (3.9GHz)
+Average Voltage Ratio : 98% (1.078V)
+
+5GFLOPS
+Average Clock Ratio : 101% (4GHz)
+Average Voltage Ratio : 98% (1.078V)
+
+7GFLOPS
+Average Clock Ratio : 103% (4GHz)
+Average Voltage Ratio : 100% (1.100V)
+
+10GFLOPS
+Average Clock Ratio : 107% (4.17GHz)
+Average Voltage Ratio : 103% (1.133V)
+
+15GFLOPS
+Average Clock Ratio : 108% (4.21GHz)
+Average Voltage Ratio : 120% (1.320V)
+
+20GFLOPS
+Average Clock Ratio : 96% (3.74GHz)
+Average Voltage Ratio : 98% (1.078V)
+
+30GFLOPS
+Average Clock Ratio : 99% (3.86GHz)
+Average Voltage Ratio : 101% (1.111V)
+
+50GFLOPS
+Average Clock Ratio : 106% (4.13GHz)
+Average Voltage Ratio : 116% (1.276V)
+
+70GFLOPS
+Average Clock Ratio : 105% (4.1GHz)
+Average Voltage Ratio : 115% (1.265V)
+
+100GFLOPS
+Average Clock Ratio : 106% (4.13GHz)
+Average Voltage Ratio : 118% (1.298V)
+
+150GFLOPS
+Average Clock Ratio : 106% (4.13GHz)
+Average Voltage Ratio : 118% (1.298V)
+
+200GFLOPS
+Average Clock Ratio : 106% (4.13GHz)
+Average Voltage Ratio : 118% (1.298V)
+
+Processor
+Model : AMD Ryzen 7 3800X 8-Core Processor
+Speed : 4.09GHz (92%)
+Min/Max/Turbo Speed : 2.2GHz - 3.9GHz - 4.42GHz
+Maximum Power : 66.973W - 128.498W
+Cores per Processor : 8 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 8x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 2x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 1.6GHz
+
+Performance Enhancing Tips
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.
