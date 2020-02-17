@@ -1,0 +1,103 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Multi-Media Native Performance : 619.12MPix/s
+Multi-Media Integer Native x32 AVX2 : 746.82MPix/s
+Multi-Media Long-int Native x16 AVX2 : 321.1MPix/s
+Multi-Media Quad-int Native x1 ALU : 6.64MPix/s
+Multi-Media Single-float Native x16 FMA : 736.92MPix/s
+Multi-Media Double-float Native x8 FMA : 431.21MPix/s
+Multi-Media Quad-float Native x4 FMA : 17.65MPix/s
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Aggregate Multi-Media Native Performance
+Multi-Media Aggregate-int Native : 489.69MPix/s
+Multi-Media Aggregate-float Native : 563.71MPix/s
+
+Performance per Thread
+Aggregate Multi-Media Native Performance : 51.6MPix/s
+Multi-Media Integer Native : 62.23MPix/s
+Multi-Media Long-int Native : 26.76MPix/s
+Multi-Media Quad-int Native : 553kPix/s
+Multi-Media Single-float Native : 61.41MPix/s
+Multi-Media Double-float Native : 36MPix/s
+Multi-Media Quad-float Native : 1.47MPix/s
+No. Threads : 12
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 142.190W
+Aggregate Multi-Media Native Performance : 4354.17kPix/s/W
+Multi-Media Integer Native : 5252.25kPix/s/W
+Multi-Media Long-int Native : 2258.21kPix/s/W
+Multi-Media Quad-int Native : 46.73kPix/s/W
+Multi-Media Single-float Native : 5182.61kPix/s/W
+Multi-Media Double-float Native : 3032.65kPix/s/W
+Multi-Media Quad-float Native : 124.14kPix/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Multi-Media Native Performance : 123.58kPix/s/MHz
+Multi-Media Integer Native : 149.07kPix/s/MHz
+Multi-Media Long-int Native : 64.09kPix/s/MHz
+Multi-Media Quad-int Native : 1.33kPix/s/MHz
+Multi-Media Single-float Native : 147.09kPix/s/MHz
+Multi-Media Double-float Native : 86.07kPix/s/MHz
+Multi-Media Quad-float Native : 3.52kPix/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-8086K CPU @ 4.00GHz (6C 12T 5GHz, 4.7GHz IMC, 6x 256kB L2, 12MB L3)
+Microcode : MU069E0A96
+Computer : ASRock Z390 Phantom Gaming 9
+Platform Compliance : x64
+No. Threads : 12
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U1-C0T1 U3-C1T1 U5-C2T1 U7-C3T1 U9-C4T1 U11-C5T1 
+System Timer : 10MHz
+
+Rendered Image Size
+Integer Int32 : 3840x2160
+Long Integer Int64 : 3840x2160
+Quad Integer Int128 : 1280x720
+Single-Float FP32 : 3840x2160
+Double-Float FP64 : 3840x2160
+Quad-Float FP128 : 1280x720
+
+Processor
+Model : Intel(R) Core(TM) i7-8086K CPU @ 4.00GHz
+Speed : 5GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 4GHz - 5GHz
+Maximum Power : 95.000W - 142.188W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 9E / A
+Microcode : MU069E0A96
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 4-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 12MB, ECC, 16-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 4.7GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 4.7GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
+AVX - Advanced Vector eXtensions : Yes
+FMA3 - Fused Multiply/Add eXtensions : Yes
+AVX2 - Advanced Vector eXtensions v2 : Yes
+HLE - Hardware Lock Elision : Yes
+RTM - Restricted Transactional Memory : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.
