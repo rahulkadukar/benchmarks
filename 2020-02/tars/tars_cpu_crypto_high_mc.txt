@@ -1,0 +1,76 @@
+SiSoftware Sandra
+
+Benchmark Results
+Cryptographic Bandwidth : 15.23GB/s
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 18.27GB/s
+Hashing Bandwidth SHA2-256 SHA/HWA : 12.69GB/s
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Performance per Thread
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 2.28GB/s
+Hashing Bandwidth SHA2-256 SHA/HWA : 1.59GB/s
+No. Threads : 8
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 129.950W
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 143.96MB/s/W
+Hashing Bandwidth SHA2-256 SHA/HWA : 99.98MB/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 5.23MB/s/MHz
+Hashing Bandwidth SHA2-256 SHA/HWA : 3.64MB/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Detailed Results
+Encryption Bandwidth AES256-ECB : 18.34GB/s
+Decryption Bandwidth AES256-ECB : 18.2GB/s
+
+Benchmark Status
+Result ID : AMD Ryzen 7 3800X 8-Core Processor (8C 16T 3.57GHz/4.45GHz, 1.6GHz IMC, 8x 512kB L2, 2x 16MB L3)
+Microcode : MU8F710013
+Computer : ASUS PRIME X570-PRO
+Platform Compliance : x64
+No. Threads : 8
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U12-C6T0 U14-C7T0 
+System Timer : 10MHz
+
+Encryption/Decryption Bandwidth
+Block Size : 8GB
+
+Hashing Bandwidth
+Block Size : 16GB
+
+Processor
+Model : AMD Ryzen 7 3800X 8-Core Processor
+Speed : 3.57GHz (80%)
+Min/Max/Turbo Speed : 2.2GHz - 3.9GHz - 4.45GHz
+Maximum Power : 66.973W - 129.954W
+Cores per Processor : 8 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 8x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 2x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 1.6GHz
+
+Features
+POPCNT - Pop Count : Yes
+RNG - Random Number Generator : Yes
+AES - Accelerated Cryptography Support : Yes
+SHA - Accelerated Hashing Support : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

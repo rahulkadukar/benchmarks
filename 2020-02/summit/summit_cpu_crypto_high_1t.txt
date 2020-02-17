@@ -1,0 +1,69 @@
+SiSoftware Sandra
+
+Benchmark Results
+Cryptographic Bandwidth : 3.5GB/s
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 7.43GB/s
+Hashing Bandwidth SHA2-256 SHA/HWA : 1.65GB/s
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 119.930W
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 63.44MB/s/W
+Hashing Bandwidth SHA2-256 SHA/HWA : 14.09MB/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 1.79MB/s/MHz
+Hashing Bandwidth SHA2-256 SHA/HWA : 0.40MB/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Detailed Results
+Encryption Bandwidth AES256-ECB : 7.73GB/s
+Decryption Bandwidth AES256-ECB : 7.14GB/s
+
+Benchmark Status
+Result ID : AMD Ryzen 9 3950X 16-Core Processor (16C 32T 4.24GHz, 1.8GHz IMC, 16x 512kB L2, 4x 16MB L3)
+Microcode : MU8F710013
+Computer : GigaByte X570 AORUS PRO WIFI Default string
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U31-C15T1 
+System Timer : 10MHz
+
+Encryption/Decryption Bandwidth
+Block Size : 8GB
+
+Hashing Bandwidth
+Block Size : 16GB
+
+Processor
+Model : AMD Ryzen 9 3950X 16-Core Processor
+Speed : 4.24GHz (99%)
+Min/Max/Turbo Speed : 2.2GHz - 3.5GHz - 4.28GHz
+Maximum Power : 60.104W - 119.934W
+Cores per Processor : 16 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 16x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 16x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 16x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 4x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.8GHz (100%)
+Min/Max/Turbo Speed : 900MHz - 1.8GHz
+
+Features
+POPCNT - Pop Count : Yes
+RNG - Random Number Generator : Yes
+AES - Accelerated Cryptography Support : Yes
+SHA - Accelerated Hashing Support : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.
