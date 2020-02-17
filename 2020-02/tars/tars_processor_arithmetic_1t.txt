@@ -1,0 +1,78 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Native Performance : 28.76GOPS
+Dhrystone Integer Native AVX2 : 43.67GIPS
+Dhrystone Long Native AVX2 : 43.43GIPS
+Whetstone Single-float Native AVX/FMA : 21GFLOPS
+Whetstone Double-float Native AVX/FMA : 17.08GFLOPS
+
+Aggregate Native Performance
+Dhrystone Aggregated-int Native : 43.55GFLOPS
+Whetstone Aggregated-float Native : 19GFLOPS
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 128.500W
+Aggregate Native Performance : 223.81MOPS/W
+Dhrystone Integer Native : 339.82MIPS/W
+Dhrystone Long Native : 337.99MIPS/W
+Whetstone Single-float Native : 163.42MFLOPS/W
+Whetstone Double-float Native : 132.94MFLOPS/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Native Performance : 7.44MOPS/MHz
+Dhrystone Integer Native : 11.29MIPS/MHz
+Dhrystone Long Native : 11.23MIPS/MHz
+Whetstone Single-float Native : 5.43MFLOPS/MHz
+Whetstone Double-float Native : 4.42MFLOPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Benchmark Status
+Result ID : AMD Ryzen 7 3800X 8-Core Processor (8C 16T 3.87GHz/4.42GHz, 1.6GHz IMC, 8x 512kB L2, 2x 16MB L3)
+Microcode : MU8F710013
+Computer : ASUS PRIME X570-PRO
+Platform Compliance : x64
+NUMA Support : No
+No. Threads : 1
+Processor Affinity : U15-C7T1 
+System Timer : 10MHz
+No. Runs : 64000 / 640
+
+Processor
+Model : AMD Ryzen 7 3800X 8-Core Processor
+Speed : 3.87GHz (87%)
+Min/Max/Turbo Speed : 2.2GHz - 3.9GHz - 4.42GHz
+Maximum Power : 66.973W - 128.498W
+Cores per Processor : 8 Unit(s)
+Cores per Compute Unit : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 71 / 0
+Microcode : MU8F710013
+L1D (1st Level) Data Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 8x 32kB, 8-Way, Exclusive, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 8x 512kB, 8-Way, Fully Inclusive, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 2x 16MB, 16-Way, Exclusive, 64bytes Line Size, 8 Thread(s)
+
+Memory Controller
+Speed : 1.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 1.6GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
+AVX - Advanced Vector eXtensions : Yes
+FMA3 - Fused Multiply/Add eXtensions : Yes
+AVX2 - Advanced Vector eXtensions v2 : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Warning 241 : Dynamic OverClocking/Turbo enabled. Performance may not be consistent and may not match expectations!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.
