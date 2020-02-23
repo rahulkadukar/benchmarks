@@ -1,0 +1,79 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Native Performance : 41.31GOPS
+Dhrystone Integer Native SSE4 : 68.32GIPS
+Dhrystone Long Native SSE4 : 64.33GIPS
+Whetstone Single-float Native SSE4 : 28.27GFLOPS
+Whetstone Double-float Native SSE4 : 22.07GFLOPS
+
+Aggregate Native Performance
+Dhrystone Aggregated-int Native : 66.3GFLOPS
+Whetstone Aggregated-float Native : 25GFLOPS
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance per Thread
+Aggregate Native Performance : 20.65GOPS
+Dhrystone Integer Native : 34.16GIPS
+Dhrystone Long Native : 32.17GIPS
+Whetstone Single-float Native : 14.13GFLOPS
+Whetstone Double-float Native : 11GFLOPS
+No. Threads : 2
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 53.000W
+Aggregate Native Performance : 779.42MOPS/W
+Dhrystone Integer Native : 1289.04MIPS/W
+Dhrystone Long Native : 1213.85MIPS/W
+Whetstone Single-float Native : 533.30MFLOPS/W
+Whetstone Double-float Native : 416.47MFLOPS/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Native Performance : 12.52MOPS/MHz
+Dhrystone Integer Native : 20.70MIPS/MHz
+Dhrystone Long Native : 19.50MIPS/MHz
+Whetstone Single-float Native : 8.57MFLOPS/MHz
+Whetstone Double-float Native : 6.69MFLOPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Benchmark Status
+Result ID : Intel(R) Pentium(R) CPU G3440 @ 3.30GHz (2C 3.3GHz, 3.3GHz IMC, 2x 256kB L2, 3MB L3)
+Microcode : MU063C0325
+Computer : ASRock Z87 Extreme4
+Platform Compliance : x64
+NUMA Support : No
+No. Threads : 2
+Processor Affinity : U0-C0T0 U1-C1T0 
+System Timer : 10MHz
+No. Runs : 64000 / 640
+
+Processor
+Model : Intel(R) Pentium(R) CPU G3440 @ 3.30GHz
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+Maximum Power : 53.000W
+Cores per Processor : 2 Unit(s)
+Threads per Core : 1 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 3C / 3
+Microcode : MU063C0325
+L1D (1st Level) Data Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 2x 256kB, ECC, 8-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 3MB, ECC, 12-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes

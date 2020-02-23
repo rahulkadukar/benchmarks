@@ -1,0 +1,67 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Scientific Performance : 3.11GFLOPS
+General Matrix Multiply (GEMM) SSE3 : 8GFLOPS
+Fast Fourier Transform (FFT) SSE3 : 1.21GFLOPS
+N-Body Simulation (NBDY) SSE3 : 5.86GFLOPS
+Type : Floating-Point (High Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 53.000W
+Aggregate Scientific Performance : 58.75MFLOPS/W
+General Matrix Multiply (GEMM) : 151.47MFLOPS/W
+N-Body Simulation (NBDY) : 22.79MFLOPS/W
+Monte Carlo Euro Option Pricing : 110.64MFLOPS/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Scientific Performance : 0.94MFLOPS/MHz
+General Matrix Multiply (GEMM) : 2.43MFLOPS/MHz
+N-Body Simulation (NBDY) : 0.37MFLOPS/MHz
+Monte Carlo Euro Option Pricing : 1.78MFLOPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+General Matrix Multiply (GEMM)
+Matrix Dimensions : 9368x9368
+
+Fast Fourier Transform (FFT)
+Block Size : 16777216
+
+N-Body Simulation (NBDY)
+No. Bodies : 16214
+
+Benchmark Status
+Result ID : Intel(R) Pentium(R) CPU G3440 @ 3.30GHz (2C 3.3GHz, 3.3GHz IMC, 2x 256kB L2, 3MB L3)
+Microcode : MU063C0325
+Computer : ASRock Z87 Extreme4
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U1-C1T0 
+System Timer : 10MHz
+
+Processor
+Model : Intel(R) Pentium(R) CPU G3440 @ 3.30GHz
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+Maximum Power : 53.000W
+Cores per Processor : 2 Unit(s)
+Threads per Core : 1 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 3C / 3
+Microcode : MU063C0325
+L1D (1st Level) Data Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 2x 256kB, ECC, 8-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 3MB, ECC, 12-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

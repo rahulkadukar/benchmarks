@@ -1,0 +1,93 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Multi-Media Native Performance : 50.9MPix/s
+Multi-Media Integer Native x16 SSE4.1 : 81.4MPix/s
+Multi-Media Long-int Native x8 SSE4.1 : 25.53MPix/s
+Multi-Media Quad-int Native x1 ALU : 1.38MPix/s
+Multi-Media Single-float Native x8 SSE2 : 54.66MPix/s
+Multi-Media Double-float Native x4 SSE2 : 29.63MPix/s
+Multi-Media Quad-float Native x2 SSE2 : 1.41MPix/s
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Aggregate Multi-Media Native Performance
+Multi-Media Aggregate-int Native : 45.59MPix/s
+Multi-Media Aggregate-float Native : 40.24MPix/s
+
+Performance per Thread
+Aggregate Multi-Media Native Performance : 25.45MPix/s
+Multi-Media Integer Native : 40.7MPix/s
+Multi-Media Long-int Native : 12.77MPix/s
+Multi-Media Quad-int Native : 691kPix/s
+Multi-Media Single-float Native : 27.33MPix/s
+Multi-Media Double-float Native : 14.82MPix/s
+Multi-Media Quad-float Native : 706kPix/s
+No. Threads : 2
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 53.000W
+Aggregate Multi-Media Native Performance : 960.32kPix/s/W
+Multi-Media Integer Native : 1535.98kPix/s/W
+Multi-Media Long-int Native : 481.72kPix/s/W
+Multi-Media Quad-int Native : 26.09kPix/s/W
+Multi-Media Single-float Native : 1031.30kPix/s/W
+Multi-Media Double-float Native : 559.09kPix/s/W
+Multi-Media Quad-float Native : 26.64kPix/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Multi-Media Native Performance : 15.42kPix/s/MHz
+Multi-Media Integer Native : 24.67kPix/s/MHz
+Multi-Media Long-int Native : 7.74kPix/s/MHz
+Multi-Media Quad-int Native : 0.42kPix/s/MHz
+Multi-Media Single-float Native : 16.56kPix/s/MHz
+Multi-Media Double-float Native : 8.98kPix/s/MHz
+Multi-Media Quad-float Native : 0.43kPix/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Benchmark Status
+Result ID : Intel(R) Pentium(R) CPU G3440 @ 3.30GHz (2C 3.3GHz, 3.3GHz IMC, 2x 256kB L2, 3MB L3)
+Microcode : MU063C0325
+Computer : ASRock Z87 Extreme4
+Platform Compliance : x64
+No. Threads : 2
+Processor Affinity : U0-C0T0 U1-C1T0 
+System Timer : 10MHz
+
+Rendered Image Size
+Integer Int32 : 1280x720
+Long Integer Int64 : 1280x720
+Quad Integer Int128 : 1280x720
+Single-Float FP32 : 1280x720
+Double-Float FP64 : 1280x720
+Quad-Float FP128 : 1280x720
+
+Processor
+Model : Intel(R) Pentium(R) CPU G3440 @ 3.30GHz
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+Maximum Power : 53.000W
+Cores per Processor : 2 Unit(s)
+Threads per Core : 1 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 3C / 3
+Microcode : MU063C0325
+L1D (1st Level) Data Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 2x 256kB, ECC, 8-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 3MB, ECC, 12-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
