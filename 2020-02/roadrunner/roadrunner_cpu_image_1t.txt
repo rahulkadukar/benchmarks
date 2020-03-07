@@ -1,0 +1,82 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Image Processing Rate : 53MPix/s
+Blur: Convolution (3x3) Filter x8 AVX2/FMA : 259.37MPix/s
+Sharpen: Convolution (5x5) Filter x8 AVX2/FMA : 105.25MPix/s
+Motion Blur: Convolution (7x7) Filter x8 AVX2/FMA : 54.93MPix/s
+Edge Detection: Sobel (2*5x5) Filter x8 AVX2/FMA : 83.7MPix/s
+Noise Reduction: Median (5x5) Filter x8 AVX2/FMA : 7.2MPix/s
+Oil Painting: Quantise (9x9) Filter x8 AVX2/FMA : 2.8MPix/s
+Diffusion: Randomise (256) Filter x8 AVX2/FMA : 321.71MPix/s
+Marbling: Perlin 2D Noise Filter (3o) x8 AVX2/FMA : 36MPix/s
+Type : Floating-Point (Normal Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 1000.000W
+Aggregate Image Processing Rate : 53.00kPix/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Image Processing Rate : 44.17kPix/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Rendered Image Size
+Blur: Convolution (3x3) Filter : 1024x1024
+Sharpen: Convolution (5x5) Filter : 1024x1024
+Motion Blur: Convolution (7x7) Filter : 1024x1024
+Edge Detection: Sobel (2*5x5) Filter : 1024x1024
+Noise Reduction: Median (5x5) Filter : 1024x1024
+Oil Painting: Quantise (9x9) Filter : 1024x1024
+Diffusion: Randomise (256) Filter : 1024x1024
+Marbling: Perlin 2D Noise Filter (3o) : 1024x1024
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz (6C 12T 1.2GHz/4GHz, 2.1GHz IMC/2.4GHz, 6x 256kB L2, 15MB L3)
+Microcode : MU063F0238
+Computer : ASRock X99X Killer
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U11-C5T1 
+System Timer : 3.22MHz
+
+Processor
+Model : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz
+Speed : 1.2GHz (30%)
+Min/Max/Turbo Speed : 1.2GHz - 3.3GHz - 4GHz
+Maximum Power : 140.000W - 1000.000W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 3F / 2
+Microcode : MU063F0238
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 8-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 15MB, ECC, 20-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 2.1GHz (87%)
+Min/Max/Turbo Speed : 1.2GHz - 2.4GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
+AVX - Advanced Vector eXtensions : Yes
+FMA3 - Fused Multiply/Add eXtensions : Yes
+AVX2 - Advanced Vector eXtensions v2 : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Tip 223 : CPU speed, under load, lower than rated speed. Check power management settings.
+Tip 226 : CPU speed, under load, at minimum speed. Check power management settings.
+Warning 241 : Dynamic OverClocking/Turbo enabled. Performance may not be consistent and may not match expectations!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

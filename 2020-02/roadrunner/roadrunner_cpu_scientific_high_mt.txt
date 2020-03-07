@@ -1,0 +1,76 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Scientific Performance : 16.34GFLOPS
+General Matrix Multiply (GEMM) AVX2/FMA : 57.2GFLOPS
+Fast Fourier Transform (FFT) AVX2/FMA : 4.67GFLOPS
+N-Body Simulation (NBDY) AVX2/FMA : 42.7GFLOPS
+Type : Floating-Point (High Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance per Thread
+Aggregate Scientific Performance : 1.36GFLOPS
+General Matrix Multiply (GEMM) : 4.77GFLOPS
+N-Body Simulation (NBDY) : 388MFLOPS
+Monte Carlo Euro Option Pricing : 3.56GFLOPS
+No. Threads : 12
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 1000.000W
+Aggregate Scientific Performance : 16.34MFLOPS/W
+General Matrix Multiply (GEMM) : 57.20MFLOPS/W
+N-Body Simulation (NBDY) : 4.67MFLOPS/W
+Monte Carlo Euro Option Pricing : 42.70MFLOPS/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Scientific Performance : 4.08MFLOPS/MHz
+General Matrix Multiply (GEMM) : 14.30MFLOPS/MHz
+N-Body Simulation (NBDY) : 1.17MFLOPS/MHz
+Monte Carlo Euro Option Pricing : 10.68MFLOPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+General Matrix Multiply (GEMM)
+Matrix Dimensions : 13440x13440
+
+Fast Fourier Transform (FFT)
+Block Size : 33554432
+
+N-Body Simulation (NBDY)
+No. Bodies : 23136
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz (6C 12T 4GHz, 2.4GHz IMC, 6x 256kB L2, 15MB L3)
+Microcode : MU063F0238
+Computer : ASRock X99X Killer
+Platform Compliance : x64
+No. Threads : 12
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U1-C0T1 U3-C1T1 U5-C2T1 U7-C3T1 U9-C4T1 U11-C5T1 
+System Timer : 3.22MHz
+
+Processor
+Model : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz
+Speed : 4GHz (99%)
+Min/Max/Turbo Speed : 1.2GHz - 3.3GHz - 4GHz
+Maximum Power : 140.000W - 1000.000W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 3F / 2
+Microcode : MU063F0238
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 8-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 15MB, ECC, 20-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 2.4GHz (100%)
+Min/Max/Turbo Speed : 1.2GHz - 2.4GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

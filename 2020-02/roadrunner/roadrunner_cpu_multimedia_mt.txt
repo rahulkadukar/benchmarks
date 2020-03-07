@@ -1,0 +1,101 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Multi-Media Native Performance : 510MPix/s
+Multi-Media Integer Native x32 AVX2 : 592.5MPix/s
+Multi-Media Long-int Native x16 AVX2 : 197.25MPix/s
+Multi-Media Quad-int Native x1 ALU : 6.27MPix/s
+Multi-Media Single-float Native x16 FMA : 620.5MPix/s
+Multi-Media Double-float Native x8 FMA : 360.82MPix/s
+Multi-Media Quad-float Native x4 FMA : 13MPix/s
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Aggregate Multi-Media Native Performance
+Multi-Media Aggregate-int Native : 341.86MPix/s
+Multi-Media Aggregate-float Native : 473.17MPix/s
+
+Performance per Thread
+Aggregate Multi-Media Native Performance : 42.5MPix/s
+Multi-Media Integer Native : 49.37MPix/s
+Multi-Media Long-int Native : 16.44MPix/s
+Multi-Media Quad-int Native : 522kPix/s
+Multi-Media Single-float Native : 51.71MPix/s
+Multi-Media Double-float Native : 30MPix/s
+Multi-Media Quad-float Native : 1.08MPix/s
+No. Threads : 12
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 1000.000W
+Aggregate Multi-Media Native Performance : 510.00kPix/s/W
+Multi-Media Integer Native : 592.49kPix/s/W
+Multi-Media Long-int Native : 197.25kPix/s/W
+Multi-Media Quad-int Native : 6.27kPix/s/W
+Multi-Media Single-float Native : 620.50kPix/s/W
+Multi-Media Double-float Native : 360.82kPix/s/W
+Multi-Media Quad-float Native : 12.95kPix/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Multi-Media Native Performance : 127.53kPix/s/MHz
+Multi-Media Integer Native : 148.16kPix/s/MHz
+Multi-Media Long-int Native : 49.32kPix/s/MHz
+Multi-Media Quad-int Native : 1.57kPix/s/MHz
+Multi-Media Single-float Native : 155.16kPix/s/MHz
+Multi-Media Double-float Native : 90.23kPix/s/MHz
+Multi-Media Quad-float Native : 3.24kPix/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz (6C 12T 4GHz, 2.4GHz IMC, 6x 256kB L2, 15MB L3)
+Microcode : MU063F0238
+Computer : ASRock X99X Killer
+Platform Compliance : x64
+No. Threads : 12
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U1-C0T1 U3-C1T1 U5-C2T1 U7-C3T1 U9-C4T1 U11-C5T1 
+System Timer : 3.22MHz
+
+Rendered Image Size
+Integer Int32 : 3840x2160
+Long Integer Int64 : 3840x2160
+Quad Integer Int128 : 1280x720
+Single-Float FP32 : 3840x2160
+Double-Float FP64 : 3840x2160
+Quad-Float FP128 : 1280x720
+
+Processor
+Model : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz
+Speed : 4GHz (99%)
+Min/Max/Turbo Speed : 1.2GHz - 3.3GHz - 4GHz
+Maximum Power : 140.000W - 1000.000W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 3F / 2
+Microcode : MU063F0238
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 8-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 15MB, ECC, 20-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 2.4GHz (100%)
+Min/Max/Turbo Speed : 1.2GHz - 2.4GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
+AVX - Advanced Vector eXtensions : Yes
+FMA3 - Fused Multiply/Add eXtensions : Yes
+AVX2 - Advanced Vector eXtensions v2 : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

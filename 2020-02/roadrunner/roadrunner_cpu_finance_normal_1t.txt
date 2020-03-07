@@ -1,0 +1,73 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Option Pricing Performance : 9.12kOPT/s
+Black-Scholes Euro Option Pricing : 22.7MOPT/s
+Binomial Euro Option Pricing : 4.43kOPT/s
+Monte Carlo Euro Option Pricing : 18.75kOPT/s
+Type : Floating-Point (Normal Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 1000.000W
+Aggregate Option Pricing Performance : 9.12OPT/s/W
+Black-Scholes Euro Option Pricing : 22694.00OPT/s/W
+Binomial Euro Option Pricing : 4.43OPT/s/W
+Monte Carlo Euro Option Pricing : 18.75OPT/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Option Pricing Performance : 7.60OPT/s/MHz
+Black-Scholes Euro Option Pricing : 18911.67OPT/s/MHz
+Binomial Euro Option Pricing : 3.69OPT/s/MHz
+Monte Carlo Euro Option Pricing : 15.63OPT/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Black-Scholes Euro Option Pricing
+Price Options : 178521600
+
+Binomial Euro Option Pricing
+Price Options : 87168
+Time Steps : 1024
+
+Monte Carlo Euro Option Pricing
+Price Options : 174337
+Simulation Paths : 32768
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz (6C 12T 1.2GHz/4GHz, 1.8GHz IMC/2.4GHz, 6x 256kB L2, 15MB L3)
+Microcode : MU063F0238
+Computer : ASRock X99X Killer
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U11-C5T1 
+System Timer : 3.22MHz
+Block Size : 170.25kB
+
+Processor
+Model : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz
+Speed : 1.2GHz (30%)
+Min/Max/Turbo Speed : 1.2GHz - 3.3GHz - 4GHz
+Maximum Power : 140.000W - 1000.000W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 3F / 2
+Microcode : MU063F0238
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 8-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 15MB, ECC, 20-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 1.8GHz (75%)
+Min/Max/Turbo Speed : 1.2GHz - 2.4GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Tip 223 : CPU speed, under load, lower than rated speed. Check power management settings.
+Tip 226 : CPU speed, under load, at minimum speed. Check power management settings.
+Warning 241 : Dynamic OverClocking/Turbo enabled. Performance may not be consistent and may not match expectations!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

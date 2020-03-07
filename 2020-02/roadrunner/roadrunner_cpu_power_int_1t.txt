@@ -1,0 +1,108 @@
+SiSoftware Sandra
+
+Benchmark Results
+ALU (Integer) Power Efficiency : 4GIPS
+Power Efficiency : 1.96
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 1000.000W
+ALU (Integer) Power Efficiency : 3.96GIPS/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+ALU (Integer) Power Efficiency : 0.99GIPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Power Management Status
+Mains (AC) Line Status : On-Line
+Processor performance boost policy : 60 %
+Minimum processor state : 5 %
+System cooling policy : Active
+Maximum processor state : 100 %
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz (6C 12T 4GHz, 2.4GHz IMC, 6x 256kB L2, 15MB L3)
+Microcode : MU063F0238
+Computer : ASRock X99X Killer
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U11-C5T1 
+System Timer : 3.22MHz
+
+200MIPS
+Average Clock Ratio : 36% (1.19GHz)
+Average Voltage Ratio : 100% (1.177V)
+
+300MIPS
+Average Clock Ratio : 36% (1.19GHz)
+Average Voltage Ratio : 100% (1.177V)
+
+500MIPS
+Average Clock Ratio : 36% (1.19GHz)
+Average Voltage Ratio : 100% (1.177V)
+
+700MIPS
+Average Clock Ratio : 36% (1.19GHz)
+Average Voltage Ratio : 100% (1.177V)
+
+1GIPS
+Average Clock Ratio : 36% (1.19GHz)
+Average Voltage Ratio : 100% (1.177V)
+
+1.5GIPS
+Average Clock Ratio : 36% (1.19GHz)
+Average Voltage Ratio : 100% (1.177V)
+
+2GIPS
+Average Clock Ratio : 41% (1.35GHz)
+Average Voltage Ratio : 100% (1.177V)
+
+3GIPS
+Average Clock Ratio : 47% (1.55GHz)
+Average Voltage Ratio : 100% (1.177V)
+
+5GIPS
+Average Clock Ratio : 67% (2.21GHz)
+Average Voltage Ratio : 100% (1.177V)
+
+7GIPS
+Average Clock Ratio : 79% (2.6GHz)
+Average Voltage Ratio : 100% (1.177V)
+
+10GIPS
+Average Clock Ratio : 98% (3.23GHz)
+Average Voltage Ratio : 100% (1.177V)
+
+15GIPS
+Average Clock Ratio : 116% (3.83GHz)
+Average Voltage Ratio : 100% (1.177V)
+
+20GIPS
+Average Clock Ratio : 121% (4GHz)
+Average Voltage Ratio : 100% (1.177V)
+
+Processor
+Model : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz
+Speed : 4GHz (99%)
+Min/Max/Turbo Speed : 1.2GHz - 3.3GHz - 4GHz
+Maximum Power : 140.000W - 1000.000W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 3F / 2
+Microcode : MU063F0238
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 8-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 15MB, ECC, 20-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 2.4GHz (100%)
+Min/Max/Turbo Speed : 1.2GHz - 2.4GHz
+
+Performance Enhancing Tips
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

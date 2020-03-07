@@ -1,0 +1,92 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Multi-Media Native Performance : 62.86MPix/s
+Multi-Media Integer Native x32 AVX2 : 79.61MPix/s
+Multi-Media Long-int Native x16 AVX2 : 27.39MPix/s
+Multi-Media Quad-int Native x1 ALU : 844kPix/s
+Multi-Media Single-float Native x16 FMA : 73.11MPix/s
+Multi-Media Double-float Native x8 FMA : 42.68MPix/s
+Multi-Media Quad-float Native x4 FMA : 1.69MPix/s
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Aggregate Multi-Media Native Performance
+Multi-Media Aggregate-int Native : 46.7MPix/s
+Multi-Media Aggregate-float Native : 55.86MPix/s
+
+Performance vs. Power
+Processor(s) Power : 1000.000W
+Aggregate Multi-Media Native Performance : 62.86kPix/s/W
+Multi-Media Integer Native : 79.61kPix/s/W
+Multi-Media Long-int Native : 27.39kPix/s/W
+Multi-Media Quad-int Native : 0.84kPix/s/W
+Multi-Media Single-float Native : 73.11kPix/s/W
+Multi-Media Double-float Native : 42.68kPix/s/W
+Multi-Media Quad-float Native : 1.69kPix/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Multi-Media Native Performance : 52.39kPix/s/MHz
+Multi-Media Integer Native : 66.35kPix/s/MHz
+Multi-Media Long-int Native : 22.83kPix/s/MHz
+Multi-Media Quad-int Native : 0.70kPix/s/MHz
+Multi-Media Single-float Native : 60.93kPix/s/MHz
+Multi-Media Double-float Native : 35.57kPix/s/MHz
+Multi-Media Quad-float Native : 1.41kPix/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz (6C 12T 1.2GHz/4GHz, 1.4GHz IMC/2.4GHz, 6x 256kB L2, 15MB L3)
+Microcode : MU063F0238
+Computer : ASRock X99X Killer
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U11-C5T1 
+System Timer : 3.22MHz
+
+Rendered Image Size
+Integer Int32 : 1280x720
+Long Integer Int64 : 1280x720
+Quad Integer Int128 : 1280x720
+Single-Float FP32 : 1280x720
+Double-Float FP64 : 1280x720
+Quad-Float FP128 : 1280x720
+
+Processor
+Model : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz
+Speed : 1.2GHz (30%)
+Min/Max/Turbo Speed : 1.2GHz - 3.3GHz - 4GHz
+Maximum Power : 140.000W - 1000.000W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 3F / 2
+Microcode : MU063F0238
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 8-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 15MB, ECC, 20-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 1.4GHz (58%)
+Min/Max/Turbo Speed : 1.2GHz - 2.4GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
+AVX - Advanced Vector eXtensions : Yes
+FMA3 - Fused Multiply/Add eXtensions : Yes
+AVX2 - Advanced Vector eXtensions v2 : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Tip 223 : CPU speed, under load, lower than rated speed. Check power management settings.
+Tip 226 : CPU speed, under load, at minimum speed. Check power management settings.
+Warning 241 : Dynamic OverClocking/Turbo enabled. Performance may not be consistent and may not match expectations!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

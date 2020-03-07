@@ -1,0 +1,80 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Native Performance : 24.93GOPS
+Dhrystone Integer Native AVX2 : 40.17GIPS
+Dhrystone Long Native AVX2 : 40GIPS
+Whetstone Single-float Native AVX/FMA : 17.42GFLOPS
+Whetstone Double-float Native AVX/FMA : 13.73GFLOPS
+
+Aggregate Native Performance
+Dhrystone Aggregated-int Native : 40GFLOPS
+Whetstone Aggregated-float Native : 15.47GFLOPS
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 1000.000W
+Aggregate Native Performance : 24.93MOPS/W
+Dhrystone Integer Native : 40.18MIPS/W
+Dhrystone Long Native : 39.94MIPS/W
+Whetstone Single-float Native : 17.42MFLOPS/W
+Whetstone Double-float Native : 13.73MFLOPS/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Native Performance : 20.77MOPS/MHz
+Dhrystone Integer Native : 33.48MIPS/MHz
+Dhrystone Long Native : 33.29MIPS/MHz
+Whetstone Single-float Native : 14.51MFLOPS/MHz
+Whetstone Double-float Native : 11.44MFLOPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz (6C 12T 1.2GHz/4GHz, 1.7GHz IMC/2.4GHz, 6x 256kB L2, 15MB L3)
+Microcode : MU063F0238
+Computer : ASRock X99X Killer
+Platform Compliance : x64
+NUMA Support : No
+No. Threads : 1
+Processor Affinity : U11-C5T1 
+System Timer : 3.22MHz
+No. Runs : 64000 / 640
+
+Processor
+Model : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz
+Speed : 1.2GHz (30%)
+Min/Max/Turbo Speed : 1.2GHz - 3.3GHz - 4GHz
+Maximum Power : 140.000W - 1000.000W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 3F / 2
+Microcode : MU063F0238
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 8-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 15MB, ECC, 20-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 1.7GHz (70%)
+Min/Max/Turbo Speed : 1.2GHz - 2.4GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
+AVX - Advanced Vector eXtensions : Yes
+FMA3 - Fused Multiply/Add eXtensions : Yes
+AVX2 - Advanced Vector eXtensions v2 : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Tip 223 : CPU speed, under load, lower than rated speed. Check power management settings.
+Tip 226 : CPU speed, under load, at minimum speed. Check power management settings.
+Warning 241 : Dynamic OverClocking/Turbo enabled. Performance may not be consistent and may not match expectations!
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

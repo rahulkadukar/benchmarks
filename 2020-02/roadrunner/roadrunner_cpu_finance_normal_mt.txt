@@ -1,0 +1,81 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Option Pricing Performance : 75.23kOPT/s
+Black-Scholes Euro Option Pricing : 177.2MOPT/s
+Binomial Euro Option Pricing : 39.24kOPT/s
+Monte Carlo Euro Option Pricing : 144.23kOPT/s
+Type : Floating-Point (Normal Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance per Thread
+Aggregate Option Pricing Performance : 6.27kOPT/s
+Black-Scholes Euro Option Pricing : 14.77MOPT/s
+Binomial Euro Option Pricing : 3.27kOPT/s
+Monte Carlo Euro Option Pricing : 12kOPT/s
+No. Threads : 12
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 1000.000W
+Aggregate Option Pricing Performance : 75.23OPT/s/W
+Black-Scholes Euro Option Pricing : 177201.00OPT/s/W
+Binomial Euro Option Pricing : 39.24OPT/s/W
+Monte Carlo Euro Option Pricing : 144.23OPT/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Option Pricing Performance : 62.69OPT/s/MHz
+Black-Scholes Euro Option Pricing : 147667.50OPT/s/MHz
+Binomial Euro Option Pricing : 32.70OPT/s/MHz
+Monte Carlo Euro Option Pricing : 120.19OPT/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Black-Scholes Euro Option Pricing
+Price Options : 178521600
+
+Binomial Euro Option Pricing
+Price Options : 87168
+Time Steps : 1024
+
+Monte Carlo Euro Option Pricing
+Price Options : 174336
+Simulation Paths : 32768
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz (6C 12T 1.2GHz/4GHz, 2.2GHz IMC/2.4GHz, 6x 256kB L2, 15MB L3)
+Microcode : MU063F0238
+Computer : ASRock X99X Killer
+Platform Compliance : x64
+No. Threads : 12
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U1-C0T1 U3-C1T1 U5-C2T1 U7-C3T1 U9-C4T1 U11-C5T1 
+System Timer : 3.22MHz
+Block Size : 170.25kB
+
+Processor
+Model : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz
+Speed : 1.2GHz (30%)
+Min/Max/Turbo Speed : 1.2GHz - 3.3GHz - 4GHz
+Maximum Power : 140.000W - 1000.000W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 3F / 2
+Microcode : MU063F0238
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 8-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 15MB, ECC, 20-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 2.2GHz (91%)
+Min/Max/Turbo Speed : 1.2GHz - 2.4GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Tip 223 : CPU speed, under load, lower than rated speed. Check power management settings.
+Tip 226 : CPU speed, under load, at minimum speed. Check power management settings.
+Warning 241 : Dynamic OverClocking/Turbo enabled. Performance may not be consistent and may not match expectations!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

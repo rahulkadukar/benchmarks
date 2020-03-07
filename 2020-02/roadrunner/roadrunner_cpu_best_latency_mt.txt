@@ -1,0 +1,148 @@
+SiSoftware Sandra
+
+Benchmark Results
+Inter-Core Bandwidth : 35.84GB/s
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Benchmark Results
+Inter-Core Latency : 58.5ns
+Results Interpretation : Lower Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1s = 1000ms, 1ms = 1000µs, 1µs = 1000ns, etc.
+
+Performance per Thread
+Inter-Core Bandwidth : 3GB/s
+No. Threads : 12
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 1000.000W
+Inter-Core Bandwidth : 36.70MB/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+Inter-Core Latency : 0.58ns/W
+Results Interpretation : Lower Scores mean Better Performance.
+
+Capacity vs. Power
+Total Cache Size : 17.09kB/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Inter-Core Bandwidth : 9.18MB/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+Inter-Core Latency : 0.15ns/MHz
+Results Interpretation : Lower Scores mean Better Performance.
+
+Detailed Results
+Processor Affinity : U0-U1 U2-U3 U4-U5 U6-U7 U8-U9 U10-U11 
+U0-U2 Data Latency : 67.3ns
+U0-U4 Data Latency : 65.6ns
+U0-U6 Data Latency : 68.3ns
+U0-U8 Data Latency : 65.1ns
+U0-U10 Data Latency : 64.9ns
+U0-U1 Data Latency : 13.3ns
+U0-U3 Data Latency : 64.9ns
+U0-U5 Data Latency : 65.9ns
+U0-U7 Data Latency : 64.4ns
+U0-U9 Data Latency : 63.2ns
+U0-U11 Data Latency : 65.6ns
+U2-U4 Data Latency : 66.5ns
+U2-U6 Data Latency : 71.0ns
+U2-U8 Data Latency : 64.0ns
+U2-U10 Data Latency : 63.8ns
+U2-U1 Data Latency : 61.7ns
+U2-U3 Data Latency : 13.0ns
+U2-U5 Data Latency : 63.4ns
+U2-U7 Data Latency : 65.2ns
+U2-U9 Data Latency : 62.7ns
+U2-U11 Data Latency : 66.2ns
+U4-U6 Data Latency : 62.6ns
+U4-U8 Data Latency : 59.1ns
+U4-U10 Data Latency : 63.7ns
+U4-U1 Data Latency : 61.4ns
+U4-U3 Data Latency : 62.6ns
+U4-U5 Data Latency : 13.0ns
+U4-U7 Data Latency : 61.7ns
+U4-U9 Data Latency : 59.3ns
+U4-U11 Data Latency : 61.7ns
+U6-U8 Data Latency : 60.7ns
+U6-U10 Data Latency : 64.3ns
+U6-U1 Data Latency : 62.3ns
+U6-U3 Data Latency : 63.3ns
+U6-U5 Data Latency : 63.3ns
+U6-U7 Data Latency : 13.0ns
+U6-U9 Data Latency : 64.5ns
+U6-U11 Data Latency : 62.3ns
+U8-U10 Data Latency : 61.5ns
+U8-U1 Data Latency : 61.4ns
+U8-U3 Data Latency : 60.8ns
+U8-U5 Data Latency : 67.0ns
+U8-U7 Data Latency : 60.8ns
+U8-U9 Data Latency : 13.3ns
+U8-U11 Data Latency : 60.5ns
+U10-U1 Data Latency : 60.2ns
+U10-U3 Data Latency : 61.3ns
+U10-U5 Data Latency : 64.5ns
+U10-U7 Data Latency : 60.9ns
+U10-U9 Data Latency : 60.7ns
+U10-U11 Data Latency : 13.3ns
+U1-U3 Data Latency : 60.6ns
+U1-U5 Data Latency : 63.2ns
+U1-U7 Data Latency : 62.0ns
+U1-U9 Data Latency : 63.9ns
+U1-U11 Data Latency : 60.4ns
+U3-U5 Data Latency : 64.7ns
+U3-U7 Data Latency : 61.5ns
+U3-U9 Data Latency : 62.2ns
+U3-U11 Data Latency : 60.2ns
+U5-U7 Data Latency : 62.0ns
+U5-U9 Data Latency : 63.3ns
+U5-U11 Data Latency : 61.3ns
+U7-U9 Data Latency : 62.6ns
+U7-U11 Data Latency : 60.6ns
+U9-U11 Data Latency : 60.4ns
+1x 64bytes Blocks Bandwidth : 10.18GB/s
+4x 64bytes Blocks Bandwidth : 12.69GB/s
+4x 256bytes Blocks Bandwidth : 49GB/s
+4x 1kB Blocks Bandwidth : 141.4GB/s
+4x 4kB Blocks Bandwidth : 207.29GB/s
+16x 4kB Blocks Bandwidth : 148.86GB/s
+4x 64kB Blocks Bandwidth : 131.5GB/s
+16x 64kB Blocks Bandwidth : 78.18GB/s
+8x 256kB Blocks Bandwidth : 62.69GB/s
+4x 1MB Blocks Bandwidth : 7.4GB/s
+8x 1MB Blocks Bandwidth : 6.61GB/s
+8x 4MB Blocks Bandwidth : 5.15GB/s
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz (6C 12T 4GHz, 2.4GHz IMC, 6x 256kB L2, 15MB L3)
+Microcode : MU063F0238
+Computer : ASRock X99X Killer
+Platform Compliance : x64
+Buffering Used : No
+No. Threads : 12
+System Timer : 3.22MHz
+
+Processor
+Model : Intel(R) Core(TM) i7-5820K CPU @ 3.30GHz
+Speed : 4GHz (99%)
+Min/Max/Turbo Speed : 1.2GHz - 3.3GHz - 4GHz
+Maximum Power : 140.000W - 1000.000W
+Cores per Processor : 6 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 3F / 2
+Microcode : MU063F0238
+L1D (1st Level) Data Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 6x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 6x 256kB, ECC, 8-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 15MB, ECC, 20-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 2.4GHz (100%)
+Min/Max/Turbo Speed : 1.2GHz - 2.4GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Warning 242 : Dynamic OverClocking/Turbo engaged. Performance will not be consistent!
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.
