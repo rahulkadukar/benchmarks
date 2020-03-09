@@ -1,24 +1,17 @@
 const machines = [
   `AMD Ryzen 3950x`,
   `AMD Ryzen 3800x`,
-  `Intel i7-8086k`
+  `Intel i7-8086k`,
+  `Intel i7-5820k`,
+  `Intel Pentium G4430`
 ]
-const benchMarks = [
-  {
-    'name': 'CPU core count',
-    'datasets': [
-      {
-        'label': 'Core count',
-        'data': [ 16, 8, 6 ]
-      }
-    ]
-  },
+const bbb = [
   {
     'name': 'CPU thread count',
     'datasets': [
       {
         'label': 'Thread count',
-        'data': [ 32, 16, 12 ]
+        'data': [ 32, 16, 12, 12, 2]
       }
     ]
   },
@@ -27,7 +20,7 @@ const benchMarks = [
     'datasets': [
       {
         'label': 'GOPS',
-        'data': [ 580.86, 292.39, 211.61 ]
+        'data': [ 580.86, 292.39, 211.61, 189.56, 41.31 ]
       }
     ]
   },
@@ -81,8 +74,8 @@ const benchMarks = [
 function fillBackgroundColor(len) {
   const bgColor = [
     '#D50000',
-    '#F9A825',
     '#29B6F6',
+    '#F9A825',
     '#537bc4',
     '#acc236',
     '#166a8f',
@@ -93,7 +86,7 @@ function fillBackgroundColor(len) {
   const barColors = []
   const colorLen = bgColor.length
   for (let i = 0; i < len; ++i) {
-    barColors.push(bgColor[(i % colorLen)])
+    barColors.push(bgColor[((i + 0) % colorLen)])
   }
   return barColors
 }
@@ -111,12 +104,14 @@ function createHorizontalBarChartData(bData) {
   }
 }
 
-window.onload = function() {
+function renderCharts(chartData) {
+  console.log(chartData)
+  const benchMarks = chartData
   var container = document.getElementById('container')
   for (let i = 0; i < benchMarks.length; ++i) {
     var canvas = document.createElement('canvas')
     canvas.id = `canvas-${i.toString().padStart(3, `0`)}`
-    canvas.height = 60
+    canvas.height = 100
     var ctx = canvas.getContext('2d');
     window.myHorizontalBar = new Chart(ctx, {
       type: 'horizontalBar',
@@ -150,4 +145,14 @@ window.onload = function() {
     });
     container.appendChild(canvas)
   }
+}
+
+window.onload = function() {
+  fetch('data/file.json')
+  .then((response) => {
+    return response.json();
+  })
+  .then((data) => {
+    renderCharts(data)
+  });
 };
