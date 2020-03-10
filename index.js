@@ -105,46 +105,53 @@ function createHorizontalBarChartData(bData) {
 }
 
 function renderCharts(chartData) {
-  console.log(chartData)
-  const benchMarks = chartData
-  var container = document.getElementById('container')
-  for (let i = 0; i < benchMarks.length; ++i) {
-    var canvas = document.createElement('canvas')
-    canvas.id = `canvas-${i.toString().padStart(3, `0`)}`
-    canvas.height = 100
-    var ctx = canvas.getContext('2d');
-    window.myHorizontalBar = new Chart(ctx, {
-      type: 'horizontalBar',
-      data: createHorizontalBarChartData(benchMarks[i]),
-      options: {
-        // Elements options apply to all of the options unless overridden in a dataset
-        // In this case, we are setting the border of each horizontal bar to be 2px wide
-        elements: { rectangle: { borderWidth: 2, } },
-        responsive: true,
-        legend: { display: false},
-        title: {
-          display: true,
-          fontColor: '#DDD',
-          text: benchMarks[i].name
-        },
-        scales: {
-          xAxes: [
-            {
-              gridLines: { color: '#90A4AE' },
-              ticks: { 
-                fontColor: "#DDD",
-                min: 0 
-              } 
-            }
-          ],
-          yAxes: [{
-            display: false
-          }]
+  const container = document.getElementById('container')
+  chartData.forEach((c) => {
+    const headerDiv = document.createElement('div')
+    headerDiv.classList.add(`header-div`)
+    headerDiv.innerText = c.name
+    container.appendChild(headerDiv)
+
+    const benchMarks = c.benchmarks
+    
+    for (let i = 0; i < benchMarks.length; ++i) {
+      var canvas = document.createElement('canvas')
+      canvas.id = `canvas-${i.toString().padStart(3, `0`)}`
+      canvas.height = 100
+      var ctx = canvas.getContext('2d');
+      window.myHorizontalBar = new Chart(ctx, {
+        type: 'horizontalBar',
+        data: createHorizontalBarChartData(benchMarks[i]),
+        options: {
+          // Elements options apply to all of the options unless overridden in a dataset
+          // In this case, we are setting the border of each horizontal bar to be 2px wide
+          elements: { rectangle: { borderWidth: 2, } },
+          responsive: true,
+          legend: { display: false},
+          title: {
+            display: true,
+            fontColor: '#DDD',
+            text: benchMarks[i].name
+          },
+          scales: {
+            xAxes: [
+              {
+                gridLines: { color: '#90A4AE' },
+                ticks: { 
+                  fontColor: "#DDD",
+                  min: 0 
+                } 
+              }
+            ],
+            yAxes: [{
+              display: false
+            }]
+          }
         }
-      }
-    });
-    container.appendChild(canvas)
-  }
+      });
+      container.appendChild(canvas)
+    }
+  })
 }
 
 window.onload = function() {
