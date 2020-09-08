@@ -1,0 +1,89 @@
+SiSoftware Sandra
+
+Benchmark Results
+Inter-Core Bandwidth : 17.9GB/s
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Benchmark Results
+Inter-Core Latency : 40.7ns
+Results Interpretation : Lower Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1s = 1000ms, 1ms = 1000µs, 1µs = 1000ns, etc.
+
+Performance per Thread
+Inter-Core Bandwidth : 4.48GB/s
+No. Threads : 4
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 73.710W
+Inter-Core Bandwidth : 248.75MB/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+Inter-Core Latency : 5.52ns/W
+Results Interpretation : Lower Scores mean Better Performance.
+
+Capacity vs. Power
+Total Cache Size : 49.49kB/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Inter-Core Bandwidth : 5.09MB/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+Inter-Core Latency : 0.11ns/MHz
+Results Interpretation : Lower Scores mean Better Performance.
+
+Detailed Results
+Processor Affinity : U0-U1 U2-U3 
+U0-U2 Data Latency : 52.2ns
+U0-U1 Data Latency : 18.0ns
+U0-U3 Data Latency : 52.2ns
+U2-U1 Data Latency : 52.5ns
+U2-U3 Data Latency : 18.0ns
+U1-U3 Data Latency : 51.2ns
+1x 64bytes Blocks Bandwidth : 2GB/s
+4x 64bytes Blocks Bandwidth : 4GB/s
+4x 256bytes Blocks Bandwidth : 15.18GB/s
+4x 1kB Blocks Bandwidth : 46.3GB/s
+4x 4kB Blocks Bandwidth : 73.73GB/s
+16x 4kB Blocks Bandwidth : 51.43GB/s
+4x 64kB Blocks Bandwidth : 56GB/s
+16x 64kB Blocks Bandwidth : 45.54GB/s
+8x 256kB Blocks Bandwidth : 21.15GB/s
+4x 1MB Blocks Bandwidth : 11.1GB/s
+8x 1MB Blocks Bandwidth : 9.58GB/s
+8x 4MB Blocks Bandwidth : 8.79GB/s
+
+Benchmark Status
+Result ID : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz (2C 4T 3.6GHz, 3.3GHz IMC, 2x 256kB L2, 3MB L3)
+Microcode : MU069E09B4
+Computer : ASRock H270M-ITX/ac
+Platform Compliance : x64
+Buffering Used : No
+No. Threads : 4
+System Timer : 10MHz
+
+Processor
+Model : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz
+Speed : 3.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.6GHz - 3.6GHz
+Maximum Power : 51.000W - 73.710W
+Cores per Processor : 2 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 9E / 9
+Microcode : MU069E09B4
+Latest Version : MU069E09D6
+L1D (1st Level) Data Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 2x 256kB, ECC, 4-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 3MB, ECC, 12-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Tip 229 : CPU microcode update available. Check for an updated System BIOS with updated microcode.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

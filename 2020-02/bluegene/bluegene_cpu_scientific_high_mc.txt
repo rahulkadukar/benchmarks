@@ -1,0 +1,78 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Scientific Performance : 11GFLOPS
+General Matrix Multiply (GEMM) SSE3 : 22.25GFLOPS
+Fast Fourier Transform (FFT) SSE3 : 5.48GFLOPS
+N-Body Simulation (NBDY) SSE3 : 19.52GFLOPS
+Type : Floating-Point (High Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance per Thread
+Aggregate Scientific Performance : 5.52GFLOPS
+General Matrix Multiply (GEMM) : 11.12GFLOPS
+N-Body Simulation (NBDY) : 2.74GFLOPS
+Monte Carlo Euro Option Pricing : 9.76GFLOPS
+No. Threads : 2
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 73.710W
+Aggregate Scientific Performance : 149.80MFLOPS/W
+General Matrix Multiply (GEMM) : 301.79MFLOPS/W
+N-Body Simulation (NBDY) : 74.36MFLOPS/W
+Monte Carlo Euro Option Pricing : 264.86MFLOPS/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Scientific Performance : 3.07MFLOPS/MHz
+General Matrix Multiply (GEMM) : 6.18MFLOPS/MHz
+N-Body Simulation (NBDY) : 1.52MFLOPS/MHz
+Monte Carlo Euro Option Pricing : 5.42MFLOPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+General Matrix Multiply (GEMM)
+Matrix Dimensions : 9376x9376
+
+Fast Fourier Transform (FFT)
+Block Size : 16777216
+
+N-Body Simulation (NBDY)
+No. Bodies : 16232
+
+Benchmark Status
+Result ID : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz (2C 4T 3.6GHz, 3.3GHz IMC, 2x 256kB L2, 3MB L3)
+Microcode : MU069E09B4
+Computer : ASRock H270M-ITX/ac
+Platform Compliance : x64
+No. Threads : 2
+Processor Affinity : U0-C0T0 U2-C1T0 
+System Timer : 10MHz
+
+Processor
+Model : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz
+Speed : 3.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.6GHz - 3.6GHz
+Maximum Power : 51.000W - 73.710W
+Cores per Processor : 2 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 9E / 9
+Microcode : MU069E09B4
+Latest Version : MU069E09D6
+L1D (1st Level) Data Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 2x 256kB, ECC, 4-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 3MB, ECC, 12-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Tip 229 : CPU microcode update available. Check for an updated System BIOS with updated microcode.
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

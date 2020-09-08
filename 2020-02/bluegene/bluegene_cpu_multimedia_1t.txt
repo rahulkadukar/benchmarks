@@ -1,0 +1,88 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Multi-Media Native Performance : 29.53MPix/s
+Multi-Media Integer Native x16 SSE4.1 : 49.4MPix/s
+Multi-Media Long-int Native x8 SSE4.1 : 20.08MPix/s
+Multi-Media Quad-int Native x1 ALU : 745kPix/s
+Multi-Media Single-float Native x8 SSE2 : 30.53MPix/s
+Multi-Media Double-float Native x4 SSE2 : 17MPix/s
+Multi-Media Quad-float Native x2 SSE2 : 843kPix/s
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Aggregate Multi-Media Native Performance
+Multi-Media Aggregate-int Native : 31.5MPix/s
+Multi-Media Aggregate-float Native : 22.83MPix/s
+
+Performance vs. Power
+Processor(s) Power : 73.710W
+Aggregate Multi-Media Native Performance : 400.58kPix/s/W
+Multi-Media Integer Native : 670.23kPix/s/W
+Multi-Media Long-int Native : 272.38kPix/s/W
+Multi-Media Quad-int Native : 10.11kPix/s/W
+Multi-Media Single-float Native : 414.23kPix/s/W
+Multi-Media Double-float Native : 231.54kPix/s/W
+Multi-Media Quad-float Native : 11.44kPix/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Multi-Media Native Performance : 8.20kPix/s/MHz
+Multi-Media Integer Native : 13.72kPix/s/MHz
+Multi-Media Long-int Native : 5.58kPix/s/MHz
+Multi-Media Quad-int Native : 0.21kPix/s/MHz
+Multi-Media Single-float Native : 8.48kPix/s/MHz
+Multi-Media Double-float Native : 4.74kPix/s/MHz
+Multi-Media Quad-float Native : 0.23kPix/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Benchmark Status
+Result ID : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz (2C 4T 3.6GHz, 3.3GHz IMC, 2x 256kB L2, 3MB L3)
+Microcode : MU069E09B4
+Computer : ASRock H270M-ITX/ac
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U3-C1T1 
+System Timer : 10MHz
+
+Rendered Image Size
+Integer Int32 : 1280x720
+Long Integer Int64 : 1280x720
+Quad Integer Int128 : 1280x720
+Single-Float FP32 : 1280x720
+Double-Float FP64 : 1280x720
+Quad-Float FP128 : 1280x720
+
+Processor
+Model : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz
+Speed : 3.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.6GHz - 3.6GHz
+Maximum Power : 51.000W - 73.710W
+Cores per Processor : 2 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 9E / 9
+Microcode : MU069E09B4
+Latest Version : MU069E09D6
+L1D (1st Level) Data Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 2x 256kB, ECC, 4-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 3MB, ECC, 12-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Tip 229 : CPU microcode update available. Check for an updated System BIOS with updated microcode.
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

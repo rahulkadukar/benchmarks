@@ -1,0 +1,81 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Option Pricing Performance : 13.86kOPT/s
+Black-Scholes Euro Option Pricing : 33.8MOPT/s
+Binomial Euro Option Pricing : 12.81kOPT/s
+Monte Carlo Euro Option Pricing : 15kOPT/s
+Type : Floating-Point (High Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance per Thread
+Aggregate Option Pricing Performance : 6.93kOPT/s
+Black-Scholes Euro Option Pricing : 16.9MOPT/s
+Binomial Euro Option Pricing : 6.4kOPT/s
+Monte Carlo Euro Option Pricing : 7.5kOPT/s
+No. Threads : 2
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 73.710W
+Aggregate Option Pricing Performance : 188.05OPT/s/W
+Black-Scholes Euro Option Pricing : 458580.93OPT/s/W
+Binomial Euro Option Pricing : 173.79OPT/s/W
+Monte Carlo Euro Option Pricing : 203.49OPT/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Option Pricing Performance : 3.85OPT/s/MHz
+Black-Scholes Euro Option Pricing : 9389.44OPT/s/MHz
+Binomial Euro Option Pricing : 3.56OPT/s/MHz
+Monte Carlo Euro Option Pricing : 4.17OPT/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Black-Scholes Euro Option Pricing
+Price Options : 43921898
+
+Binomial Euro Option Pricing
+Price Options : 21446
+Time Steps : 1024
+
+Monte Carlo Euro Option Pricing
+Price Options : 42892
+Simulation Paths : 32768
+
+Benchmark Status
+Result ID : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz (2C 4T 3.6GHz, 3.3GHz IMC, 2x 256kB L2, 3MB L3)
+Microcode : MU069E09B4
+Computer : ASRock H270M-ITX/ac
+Platform Compliance : x64
+No. Threads : 2
+Processor Affinity : U0-C0T0 U2-C1T0 
+System Timer : 10MHz
+Block Size : 41.89kB
+
+Processor
+Model : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz
+Speed : 3.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.6GHz - 3.6GHz
+Maximum Power : 51.000W - 73.710W
+Cores per Processor : 2 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 9E / 9
+Microcode : MU069E09B4
+Latest Version : MU069E09D6
+L1D (1st Level) Data Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 2x 256kB, ECC, 4-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 3MB, ECC, 12-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Tip 229 : CPU microcode update available. Check for an updated System BIOS with updated microcode.
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

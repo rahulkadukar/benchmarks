@@ -1,0 +1,105 @@
+SiSoftware Sandra
+
+Benchmark Results
+FPU (Floating-Point) Power Efficiency : 4.23GFLOPS
+Power Efficiency : 4.12
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Power
+Processor(s) Power : 73.710W
+FPU (Floating-Point) Power Efficiency : 57.41GFLOPS/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+FPU (Floating-Point) Power Efficiency : 1.18GFLOPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Power Management Status
+Mains (AC) Line Status : On-Line
+Processor performance boost policy : 60 %
+Minimum processor state : 5 %
+System cooling policy : Active
+Maximum processor state : 100 %
+
+Benchmark Status
+Result ID : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz (2C 4T 3.6GHz, 3.3GHz IMC, 2x 256kB L2, 3MB L3)
+Microcode : MU069E09B4
+Computer : ASRock H270M-ITX/ac
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U3-C1T1 
+System Timer : 10MHz
+
+200MFLOPS
+Average Clock Ratio : 22% (792MHz)
+Average Voltage Ratio : 63% (0.671V)
+
+300MFLOPS
+Average Clock Ratio : 22% (792MHz)
+Average Voltage Ratio : 63% (0.671V)
+
+500MFLOPS
+Average Clock Ratio : 22% (792MHz)
+Average Voltage Ratio : 63% (0.671V)
+
+700MFLOPS
+Average Clock Ratio : 22% (792MHz)
+Average Voltage Ratio : 63% (0.671V)
+
+1GFLOPS
+Average Clock Ratio : 23% (828MHz)
+Average Voltage Ratio : 64% (0.682V)
+
+1.5GFLOPS
+Average Clock Ratio : 33% (1.19GHz)
+Average Voltage Ratio : 69% (0.735V)
+
+2GFLOPS
+Average Clock Ratio : 39% (1.4GHz)
+Average Voltage Ratio : 72% (0.767V)
+
+3GFLOPS
+Average Clock Ratio : 59% (2.12GHz)
+Average Voltage Ratio : 80% (0.852V)
+
+5GFLOPS
+Average Clock Ratio : 87% (3.13GHz)
+Average Voltage Ratio : 94% (1.001V)
+
+7GFLOPS
+Average Clock Ratio : 92% (3.31GHz)
+Average Voltage Ratio : 96% (1.022V)
+
+10GFLOPS
+Average Clock Ratio : 99% (3.56GHz)
+Average Voltage Ratio : 100% (1.065V)
+
+15GFLOPS
+Average Clock Ratio : 100% (3.6GHz)
+Average Voltage Ratio : 100% (1.065V)
+
+Processor
+Model : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz
+Speed : 3.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.6GHz - 3.6GHz
+Maximum Power : 51.000W - 73.710W
+Cores per Processor : 2 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 9E / 9
+Microcode : MU069E09B4
+Latest Version : MU069E09D6
+L1D (1st Level) Data Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 2x 256kB, ECC, 4-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 3MB, ECC, 12-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+
+Performance Enhancing Tips
+Tip 229 : CPU microcode update available. Check for an updated System BIOS with updated microcode.
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

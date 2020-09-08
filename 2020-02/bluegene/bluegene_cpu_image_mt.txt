@@ -1,0 +1,83 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Image Processing Rate : 50MPix/s
+Blur: Convolution (3x3) Filter x4 SSE4 : 257.7MPix/s
+Sharpen: Convolution (5x5) Filter x4 SSE4 : 101MPix/s
+Motion Blur: Convolution (7x7) Filter x4 SSE4 : 52.4MPix/s
+Edge Detection: Sobel (2*5x5) Filter x4 SSE4 : 80.32MPix/s
+Noise Reduction: Median (5x5) Filter x4 SSE4 : 6.29MPix/s
+Oil Painting: Quantise (9x9) Filter x4 SSE4 : 6.49MPix/s
+Diffusion: Randomise (256) Filter x4 SSE4 : 477.24MPix/s
+Marbling: Perlin 2D Noise Filter (3o) x4 SSE4 : 78.65MPix/s
+Type : Floating-Point (Normal Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Performance per Thread
+Aggregate Image Processing Rate : 12.48MPix/s
+No. Threads : 4
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 73.710W
+Aggregate Image Processing Rate : 677.41kPix/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Aggregate Image Processing Rate : 13.87kPix/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Rendered Image Size
+Blur: Convolution (3x3) Filter : 2048x2048
+Sharpen: Convolution (5x5) Filter : 2048x2048
+Motion Blur: Convolution (7x7) Filter : 2048x2048
+Edge Detection: Sobel (2*5x5) Filter : 2048x2048
+Noise Reduction: Median (5x5) Filter : 2048x2048
+Oil Painting: Quantise (9x9) Filter : 2048x2048
+Diffusion: Randomise (256) Filter : 2048x2048
+Marbling: Perlin 2D Noise Filter (3o) : 2048x2048
+
+Benchmark Status
+Result ID : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz (2C 4T 3.6GHz, 3.3GHz IMC, 2x 256kB L2, 3MB L3)
+Microcode : MU069E09B4
+Computer : ASRock H270M-ITX/ac
+Platform Compliance : x64
+No. Threads : 4
+Processor Affinity : U0-C0T0 U2-C1T0 U1-C0T1 U3-C1T1 
+System Timer : 10MHz
+
+Processor
+Model : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz
+Speed : 3.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.6GHz - 3.6GHz
+Maximum Power : 51.000W - 73.710W
+Cores per Processor : 2 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 9E / 9
+Microcode : MU069E09B4
+Latest Version : MU069E09D6
+L1D (1st Level) Data Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 2x 256kB, ECC, 4-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 3MB, ECC, 12-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Tip 229 : CPU microcode update available. Check for an updated System BIOS with updated microcode.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

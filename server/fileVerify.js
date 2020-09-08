@@ -22,9 +22,9 @@ async function readFolder() {
     const expectedNames = new Set(createExpectedNames(fixedPrefix))
     const actualNames = new Set(createActualNames(fixedPrefix, machineFiles))
     if (inSubset(expectedNames, actualNames)) {
-      console.log(`Machine: ${m} passed validation`)
+      console.log(`[${m}]: passed validation`)
     } else {
-      console.log(`Machine: ${m} needs to be fixed. Errors listed below`)
+      console.log(`[${m}]: needs to be fixed. Errors listed below`)
       console.log(subtractSet(expectedNames, actualNames))
     }
   })

@@ -1,0 +1,76 @@
+SiSoftware Sandra
+
+Benchmark Results
+Cryptographic Bandwidth : 2.89GB/s
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 7.58GB/s
+Hashing Bandwidth SHA2-256 SSE4 : 1.1GB/s
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Performance per Thread
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 1.9GB/s
+Hashing Bandwidth SHA2-256 SSE4 : 282MB/s
+No. Threads : 4
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 73.710W
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 105.26MB/s/W
+Hashing Bandwidth SHA2-256 SSE4 : 15.34MB/s/W
+Results Interpretation : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 2.16MB/s/MHz
+Hashing Bandwidth SHA2-256 SSE4 : 0.31MB/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Detailed Results
+Encryption Bandwidth AES256-ECB : 7.58GB/s
+Decryption Bandwidth AES256-ECB : 7.58GB/s
+
+Benchmark Status
+Result ID : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz (2C 4T 3.6GHz, 3.3GHz IMC, 2x 256kB L2, 3MB L3)
+Microcode : MU069E09B4
+Computer : ASRock H270M-ITX/ac
+Platform Compliance : x64
+No. Threads : 4
+Processor Affinity : U0-C0T0 U2-C1T0 U1-C0T1 U3-C1T1 
+System Timer : 10MHz
+
+Encryption/Decryption Bandwidth
+Block Size : 2GB
+
+Hashing Bandwidth
+Block Size : 3.93GB
+
+Processor
+Model : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz
+Speed : 3.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.6GHz - 3.6GHz
+Maximum Power : 51.000W - 73.710W
+Cores per Processor : 2 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 9E / 9
+Microcode : MU069E09B4
+Latest Version : MU069E09D6
+L1D (1st Level) Data Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 2x 256kB, ECC, 4-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 3MB, ECC, 12-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+
+Features
+POPCNT - Pop Count : Yes
+RNG - Random Number Generator : Yes
+AES - Accelerated Cryptography Support : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Tip 229 : CPU microcode update available. Check for an updated System BIOS with updated microcode.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

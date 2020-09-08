@@ -1,0 +1,74 @@
+SiSoftware Sandra
+
+Benchmark Results
+Neural Network Aggregate Performance : 0.989samples/s
+CNN Inference (Forward) x4 SSE4 : 1.606samples/s
+CNN Train (Back-Propagation) x4 SSE4 : 0.435samples/s
+RNN Inference (Forward) x4 SSE4 : 2.013samples/s
+RNN Train (Back-Prop in Time) x4 SSE4 : 0.681samples/s
+Type : Floating-Point (High Precision)
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1Gpix(/s) = 1000MPix(/s), 1Mpix(/s) = 1000kPix(/s), 1kPix(/s) = 1000 pixel(/s), etc.
+
+Performance vs. Power
+Processor(s) Power : 73.710W
+Neural Network Aggregate Performance : 13.42samples/s/W
+CNN Inference (Forward) : Higher Scores mean Better Performance.
+
+Performance vs. Speed
+Neural Network Aggregate Performance : 0.27samples/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+CNN (Convolution Neural Network)
+Rendered Image Size : 224x224
+CNN Inference (Forward) : 10, 11%
+CNN Train (Back-Propagation) : 6, 24%
+
+RNN (Recurrent Neural Network)
+Rendered Image Size : 224x224
+RNN Inference (Forward) : 7, 7%
+RNN Train (Back-Prop in Time) : 4, 10%
+
+Benchmark Status
+Result ID : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz (2C 4T 3.6GHz, 3.3GHz IMC, 2x 256kB L2, 3MB L3)
+Microcode : MU069E09B4
+Computer : ASRock H270M-ITX/ac
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U3-C1T1 
+System Timer : 10MHz
+
+Processor
+Model : Intel(R) Pentium(R) CPU G4600 @ 3.60GHz
+Speed : 3.6GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.6GHz - 3.6GHz
+Maximum Power : 51.000W - 73.710W
+Cores per Processor : 2 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : 9E / 9
+Microcode : MU069E09B4
+Latest Version : MU069E09D6
+L1D (1st Level) Data Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 2x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 2x 256kB, ECC, 4-Way, 64bytes Line Size, 2 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 3MB, ECC, 12-Way, Fully Inclusive, 64bytes Line Size, 16 Thread(s)
+
+Memory Controller
+Speed : 3.3GHz (100%)
+Min/Max/Turbo Speed : 800MHz - 3.3GHz
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Tip 229 : CPU microcode update available. Check for an updated System BIOS with updated microcode.
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.
