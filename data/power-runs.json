@@ -1,0 +1,21 @@
+[
+  {
+    "view": "Arithmetic - All cores",
+    "machine": "frontier",
+    "plug": "172.16.28.26",
+    "runs": [["2026-11-02T15:38:01-05:00", "2026-11-02T15:41:40-05:00"]],
+    "note": "the only heavy run in the plug log; produced frontier_cpu_arithmetic_mc.txt"
+  },
+  {
+    "view": "Arithmetic - Single thread",
+    "machine": "frontier",
+    "plug": "172.16.28.26",
+    "runs": [
+      ["2026-11-02T12:44:52-05:00", "2026-11-02T12:48:22-05:00"],
+      ["2026-11-02T15:17:47-05:00", "2026-11-02T15:21:16-05:00"],
+      ["2026-11-02T15:27:34-05:00", "2026-11-02T15:31:19-05:00"],
+      ["2026-11-02T15:32:22-05:00", "2026-11-02T15:35:48-05:00"]
+    ],
+    "note": "average of today's four single-thread runs; the saved file's own run may be in the 13:28-14:56 log gap"
+  }
+]

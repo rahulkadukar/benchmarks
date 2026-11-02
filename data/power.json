@@ -1,0 +1,29 @@
+{
+ "Arithmetic - All cores": {
+  "frontier": {
+   "avgW": 237.1,
+   "peakW": 366.1,
+   "idleW": 33.9,
+   "whPerRun": 13.6,
+   "seconds": 206,
+   "runs": 1,
+   "rangeW": null,
+   "note": "the only heavy run in the plug log; produced frontier_cpu_arithmetic_mc.txt"
+  }
+ },
+ "Arithmetic - Single thread": {
+  "frontier": {
+   "avgW": 71.1,
+   "peakW": 82.3,
+   "idleW": 32.4,
+   "whPerRun": 4,
+   "seconds": 205,
+   "runs": 4,
+   "rangeW": [
+    70.3,
+    72.5
+   ],
+   "note": "average of today's four single-thread runs; the saved file's own run may be in the 13:28-14:56 log gap"
+  }
+ }
+}

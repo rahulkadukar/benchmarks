@@ -1,7 +1,8 @@
 import { Tabs } from '@mantine/core'
 
 import classes from './Main.module.css'
-import BenchChart, { type Benchmark } from './BenchChart'
+import BenchChart, { type Benchmark, type Power } from './BenchChart'
+import powerData from '../data/power.json'
 import describe from './describe'
 import chartData from '../data/file.json'
 import sandraData from '../data/sandra.json'
@@ -24,6 +25,24 @@ const rank = (g: Group) => (FIRST.includes(viewName(g.name)) ? FIRST.indexOf(vie
 for (const groups of tests.values()) groups.sort((a, b) => rank(a) - rank(b))
 
 const tabClasses = { list: classes.tabs, tab: classes.tab }
+
+// wall power of the whole PC during this view's run, measured by the Kasa plug
+function PowerNote({ power }: { readonly power?: Record<string, Power> }) {
+  if (!power) return null
+  return (
+    <div className={classes.note}>
+      {Object.entries(power).map(([id, p]) => {
+        const name = machines.find(m => m.id === id)?.name ?? id
+        const runs = p.runs > 1 ? `, average of ${p.runs} runs (${p.rangeW?.join('–')} W)` : ''
+        return (
+          <div key={id}>
+            {name}: {p.avgW} W average at the wall, {p.peakW} W peak, {p.idleW} W idle, {p.whPerRun} Wh per {Math.round(p.seconds / 60 * 10) / 10}-minute run{runs}
+          </div>
+        )
+      })}
+    </div>
+  )
+}
 
 export default function Main() {
   const first = [...tests.keys()][0]
@@ -56,7 +75,8 @@ export default function Main() {
               {groups.map(g => (
                 <Tabs.Panel key={g.name} value={g.name}>
                   <div className={classes.header}>{g.name}</div>
-                  {g.benchmarks.map(b => <BenchChart key={b.name} benchmark={b} description={describe(g.name, b)} />)}
+                  <PowerNote power={(powerData as Record<string, Record<string, Power>>)[g.name]} />
+                  {g.benchmarks.map(b => <BenchChart key={b.name} benchmark={b} description={describe(g.name, b)} power={(powerData as Record<string, Record<string, Power>>)[g.name]} />)}
                 </Tabs.Panel>
               ))}
             </Tabs>
