@@ -72,12 +72,13 @@ const bbb = [
 ]
 
 function fillBackgroundColor(len) {
+  // same order as the machines and the legend in index.html: AMD in reds, Intel in blues
   const bgColor = [
-    '#D50000',
-    '#29B6F6',
-    '#F9A825',
-    '#537bc4',
-    '#acc236',
+    '#B71C1C',
+    '#EF5350',
+    '#1565C0',
+    '#42A5F5',
+    '#90CAF9',
     '#166a8f',
     '#00a950',
     '#58595b',
@@ -104,6 +105,29 @@ function createHorizontalBarChartData(bData) {
   }
 }
 
+// writes each bar's value just past its end
+const valueLabels = {
+  afterDatasetsDraw(chart) {
+    const ctx = chart.ctx
+    ctx.save()
+    ctx.font = '12px sans-serif'
+    ctx.textBaseline = 'middle'
+    chart.data.datasets.forEach((dataSet, i) => {
+      chart.getDatasetMeta(i).data.forEach((bar, j) => {
+        const text = String(dataSet.data[j])
+        const x = bar._model.x + 6
+        const y = bar._model.y
+        // page background behind the text, so grid lines don't run through it
+        ctx.fillStyle = '#37474F'
+        ctx.fillRect(x - 2, y - 8, ctx.measureText(text).width + 4, 16)
+        ctx.fillStyle = '#DDD'
+        ctx.fillText(text, x, y)
+      })
+    })
+    ctx.restore()
+  }
+}
+
 function renderCharts(chartData) {
   const container = document.getElementById('container')
   chartData.forEach((c) => {
@@ -122,7 +146,10 @@ function renderCharts(chartData) {
       window.myHorizontalBar = new Chart(ctx, {
         type: 'horizontalBar',
         data: createHorizontalBarChartData(benchMarks[i]),
+        plugins: [valueLabels],
         options: {
+          // room on the right for the value written past the longest bar
+          layout: { padding: { right: 60 } },
           // Elements options apply to all of the options unless overridden in a dataset
           // In this case, we are setting the border of each horizontal bar to be 2px wide
           elements: { rectangle: { borderWidth: 2, } },
@@ -136,7 +163,7 @@ function renderCharts(chartData) {
           scales: {
             xAxes: [
               {
-                gridLines: { color: '#90A4AE' },
+                gridLines: { color: 'rgba(144, 164, 174, 0.35)' },
                 ticks: { 
                   fontColor: "#DDD",
                   min: 0 
