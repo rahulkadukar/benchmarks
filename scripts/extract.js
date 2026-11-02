@@ -6,8 +6,15 @@ const fs = require('fs')
 const path = require('path')
 
 const ROOT = path.join(__dirname, '..', '2020-02')
-// same order as src/machines.ts
-const MACHINES = ['summit', 'tars', 'yellowstone', 'roadrunner', 'bluegene', 'cray']
+// same order as src/machines.ts; frontier is the i7-14700K (2026 runs)
+const MACHINES = ['summit', 'tars', 'frontier', 'yellowstone', 'roadrunner', 'bluegene', 'cray']
+
+// Sandra saves its text reports as UTF-8 (2020) or as UTF-16 with a byte-order mark (2026)
+function readText(file) {
+  const buf = fs.readFileSync(file)
+  if (buf[0] === 0xFF && buf[1] === 0xFE) return buf.toString('utf16le').slice(1)
+  return buf.toString('utf8').replace(/^\uFEFF/, '')
+}
 
 const TESTS = [
   ['crypto_high', 'Crypto'],
@@ -55,7 +62,7 @@ function parseValue(text) {
 
 // file -> [{ section, metrics: Map(name -> parsed value), lowerIsBetter }]
 function readSections(file) {
-  const lines = fs.readFileSync(file, 'utf8').replace(/\r/g, '').split('\n')
+  const lines = readText(file).replace(/\r/g, '').split('\n')
   const sections = []
   let current = null
   for (const line of lines) {
@@ -131,15 +138,18 @@ fs.writeFileSync(path.join(__dirname, '..', 'data', 'sandra.json'), JSON.stringi
 
 // data/heatmaps.json: each machine's latency between every pair of threads ("U0-U2 Data Latency : 26.6ns"),
 // from the closest-cores run, in machine order
+// null for a machine without a latency run
 const heatmaps = MACHINES.map(m => {
-  const text = fs.readFileSync(path.join(ROOT, m, `${m}_cpu_best_latency_mt.txt`), 'utf8')
+  const file = path.join(ROOT, m, `${m}_cpu_best_latency_mt.txt`)
+  if (!fs.existsSync(file)) return null
+  const text = readText(file)
   const pairs = [...text.matchAll(/^U(\d+)-U(\d+) Data Latency : ([0-9.]+)ns\s*$/gm)].map(r => [Number(r[1]), Number(r[2]), Number(r[3])])
   const units = [...new Set(pairs.flatMap(([a, b]) => [a, b]))].sort((a, b) => a - b)
   if (pairs.length !== units.length * (units.length - 1) / 2) throw new Error(`${m}: ${pairs.length} pairs for ${units.length} threads`)
   return { units, pairs }
 })
 fs.writeFileSync(path.join(__dirname, '..', 'data', 'heatmaps.json'), JSON.stringify(heatmaps) + '\n')
-console.log(`heatmaps: ${heatmaps.map((h, i) => `${MACHINES[i]} ${h.units.length}x${h.units.length}`).join(', ')}`)
+console.log(`heatmaps: ${heatmaps.map((h, i) => `${MACHINES[i]} ${h ? `${h.units.length}x${h.units.length}` : 'none'}`).join(', ')}`)
 for (const g of groups) {
   console.log(`${g.name}: ${g.benchmarks.length} charts`)
   for (const b of g.benchmarks) console.log(`  ${b.name} [${b.unit}${b.lowerIsBetter ? ', lower is better' : ''}] ${b.datasets[0].data.join(', ')}`)

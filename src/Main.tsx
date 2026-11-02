@@ -49,7 +49,7 @@ export default function Main() {
                     latency between every pair of threads (U0, U1, …), closest-cores run; each CPU on its own scale, hover a cell for its value
                   </div>
                   <div className={classes.heatmaps}>
-                    {(heatmapData as Heatmap[]).map((h, i) => <LatencyHeatmap key={machines[i].name} name={machines[i].name} heatmap={h} />)}
+                    {(heatmapData as (Heatmap | null)[]).map((h, i) => h && <LatencyHeatmap key={machines[i].name} name={machines[i].name} heatmap={h} />)}
                   </div>
                 </Tabs.Panel>
               )}
