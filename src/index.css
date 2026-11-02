@@ -1,0 +1,4 @@
+/* the page's slate background, over Mantine's dark default */
+:root[data-mantine-color-scheme='dark'] {
+  --mantine-color-body: #37474F;
+}

@@ -1,0 +1,94 @@
+import { useEffect, useRef } from 'react'
+import { BarController, BarElement, CategoryScale, Chart, LinearScale, SubTitle, Title, Tooltip, type Plugin } from 'chart.js'
+
+import { machines } from './machines'
+
+Chart.register(BarController, BarElement, CategoryScale, LinearScale, SubTitle, Title, Tooltip)
+
+export interface Benchmark {
+  name: string
+  datasets: { label?: string, data: number[] }[]
+}
+
+// text on the page background, so grid lines don't run through it; returns where the text ends
+function besideBar(ctx: CanvasRenderingContext2D, text: string, x: number, y: number) {
+  const width = ctx.measureText(text).width
+  ctx.fillStyle = '#37474F'
+  ctx.fillRect(x - 2, y - 8, width + 4, 16)
+  ctx.fillStyle = '#DDD'
+  ctx.fillText(text, x, y)
+  return x + width
+}
+
+// writes the CPU name on its bar and the value just past the bar's end;
+// a bar too short for its name gets the name after it, before the value
+const barLabels: Plugin<'bar'> = {
+  id: 'barLabels',
+  afterDatasetsDraw(chart) {
+    const ctx = chart.ctx
+    ctx.save()
+    ctx.font = '12px sans-serif'
+    ctx.textBaseline = 'middle'
+    chart.data.datasets.forEach((dataSet, i) => {
+      chart.getDatasetMeta(i).data.forEach((element, j) => {
+        const bar = element as BarElement
+        const name = machines[j].name
+        const value = String(dataSet.data[j])
+        const start = bar.base
+        const end = bar.x
+        let x = end + 6
+        if (end - start >= ctx.measureText(name).width + 16) {
+          ctx.fillStyle = machines[j].text
+          ctx.fillText(name, start + 8, bar.y)
+        } else {
+          x = besideBar(ctx, name, x, bar.y) + 8
+        }
+        besideBar(ctx, value, x, bar.y)
+      })
+    })
+    ctx.restore()
+  }
+}
+
+export default function BenchChart({ benchmark, description }: { readonly benchmark: Benchmark, readonly description: string }) {
+  const canvas = useRef<HTMLCanvasElement>(null)
+
+  useEffect(() => {
+    if (!canvas.current) return
+    const chart = new Chart(canvas.current, {
+      type: 'bar',
+      data: {
+        labels: machines.map(m => m.name),
+        datasets: benchmark.datasets.map(d => ({
+          ...d,
+          backgroundColor: machines.map(m => m.color),
+          borderWidth: 2,
+        })),
+      },
+      plugins: [barLabels],
+      options: {
+        indexAxis: 'y',
+        responsive: true,
+        aspectRatio: 3,
+        // room on the right for the value written past the longest bar
+        layout: { padding: { right: 60 } },
+        plugins: {
+          legend: { display: false },
+          title: { display: true, color: '#DDD', text: benchmark.name },
+          subtitle: { display: true, color: '#B0BEC5', text: description, padding: { bottom: 10 } },
+        },
+        scales: {
+          x: {
+            min: 0,
+            grid: { color: 'rgba(144, 164, 174, 0.35)' },
+            ticks: { color: '#DDD' },
+          },
+          y: { display: false },
+        },
+      },
+    })
+    return () => chart.destroy()
+  }, [benchmark, description])
+
+  return <canvas ref={canvas} />
+}

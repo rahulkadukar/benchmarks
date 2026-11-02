@@ -1,37 +1,34 @@
-#container {
+.container {
   width: 1000px;
   margin: 0 auto;
 }
 
-body {
-  background-color: #37474F;
-}
-
-.header-div {
+.header {
   color: #FFF;
   font-size: 24px;
+  font-family: serif;
   text-align: center;
   margin: 40px 0px;
   border-bottom: 4px solid brown;
 }
 
 .tabs {
-  display: flex;
-  gap: 4px;
   margin-top: 20px;
+  flex-wrap: nowrap;
+  gap: 4px;
   border-bottom: 4px solid brown;
 }
 
-.tabs > button {
+.tab {
   background: #455A64;
   color: #DDD;
-  border: none;
-  padding: 10px 14px;
-  font-size: 16px;
-  cursor: pointer;
+  border-radius: 0;
+  font-size: 15px;
+  padding: 10px 8px;
 }
 
-.tabs > button.active {
+.tab[data-active] {
   background: brown;
   color: #FFF;
+  border-color: brown;
 }

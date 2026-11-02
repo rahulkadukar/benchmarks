@@ -2,11 +2,13 @@
   "name": "benchmarks",
   "version": "1.0.0",
   "description": "CPU Benchmarks",
-  "main": "index.js",
   "scripts": {
-    "start": "http-server . -p 8000 -c-1 -o",
+    "start": "vite",
     "verify": "node server/fileVerify.js",
-    "start:dev": "live-server --port=8000"
+    "start:dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -18,8 +20,27 @@
     "url": "https://github.com/rahulkadukar/benchmarks/issues"
   },
   "homepage": "https://github.com/rahulkadukar/benchmarks#readme",
+  "dependencies": {
+    "@mantine/core": "^9.7.4",
+    "@mantine/hooks": "^9.7.4",
+    "chart.js": "^4.6.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
   "devDependencies": {
-    "http-server": "^14.1.1",
-    "live-server": "^1.2.2"
+    "@eslint/js": "^9.39.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@typescript-eslint/eslint-plugin": "^8.72.1",
+    "@typescript-eslint/parser": "^8.72.1",
+    "@vitejs/plugin-react": "^6.2.1",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^17.14.0",
+    "postcss": "^8.5.32",
+    "postcss-preset-mantine": "^1.18.0",
+    "postcss-simple-vars": "^7.0.1",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.5"
   }
 }
