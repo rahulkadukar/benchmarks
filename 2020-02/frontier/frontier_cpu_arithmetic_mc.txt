@@ -1,0 +1,73 @@
+SiSoftware Sandra
+
+Benchmark Results
+Aggregate Native Performance : 492.52GOPS
+Dhrystone Integer Native AVX2 : 744.08GIPS
+Dhrystone Long Native AVX2 : 740.22GIPS
+Whetstone Single-float Native AVX/FMA : 439.9GFLOPS
+Whetstone Double-float Native AVX/FMA : 241.6GFLOPS
+
+Aggregate Native Performance
+Dhrystone Aggregated-int Native : 742.15GFLOPS
+Whetstone Aggregated-float Native : 326GFLOPS
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance per Thread
+Aggregate Native Performance : 24.63GOPS
+Dhrystone Integer Native : 37.2GIPS
+Dhrystone Long Native : 37GIPS
+Whetstone Single-float Native : 22GFLOPS
+Whetstone Double-float Native : 12.08GFLOPS
+No. Threads : 20
+Results Interpretation : Higher Scores mean Better Performance.
+Decimal Numeral System (base 10) : 1GOPS = 1000MOPS, 1MOPS = 1000kOPS, 1kOPS = 1000OPS, etc.
+
+Performance vs. Speed
+Aggregate Native Performance : 144.10MOPS/MHz
+Dhrystone Integer Native : 217.70MIPS/MHz
+Dhrystone Long Native : 216.56MIPS/MHz
+Whetstone Single-float Native : 128.70MFLOPS/MHz
+Whetstone Double-float Native : 70.69MFLOPS/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-14700K (20C 40T 3.42GHz/5.6GHz, 11x 2MB L2, 33MB L3)
+Microcode
+Computer : MSI MS-7D98 Default string (MSI PRO B760-P WIFI DDR4 (MS-7D98))
+Platform Compliance : x64
+NUMA Support : No
+No. Threads : 20
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U12-C6T0 U14-C7T0 U16-C8T0 U17-C9T0 U18-C10T0 U19-C11T0 U20-C12T0 U21-C13T0 U22-C14T0 U23-C15T0 U24-C16T0 U25-C17T0 U26-C18T0 U27-C19T0 
+System Timer : 10MHz
+No. Runs : 64000 / 640
+
+Processor
+Model : Intel(R) Core(TM) i7-14700K
+Speed : 3.42GHz (61%)
+Min/Max/Turbo Speed : N/A - 3.4GHz - 5.6GHz
+Cores per Processor : 20 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : B7 / 1
+L1D (1st Level) Data Cache : 20x 48kB, 12-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 20x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 11x 2MB, 16-Way, 64bytes Line Size, 8 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 33MB, 11-Way, 64bytes Line Size, 128 Thread(s)
+
+Features
+SSE - Streaming SIMD Extensions : Yes
+SSE2 - Streaming SIMD Extensions v2 : Yes
+SSE3 - Streaming SIMD Extensions v3 : Yes
+SSSE3 - Supplemental SSE3 : Yes
+SSE4.1 - Streaming SIMD Extensions v4.1 : Yes
+SSE4.2 - Streaming SIMD Extensions v4.2 : Yes
+AVX - Advanced Vector eXtensions : Yes
+FMA3 - Fused Multiply/Add eXtensions : Yes
+AVX2 - Advanced Vector eXtensions v2 : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Tip 223 : CPU speed, under load, lower than rated speed. Check power management settings.
+Warning 5003 : Benchmark has measured single-processor performance only.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.
