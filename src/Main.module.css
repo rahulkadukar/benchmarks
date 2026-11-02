@@ -40,3 +40,41 @@
   color: #FFF;
   border-color: brown;
 }
+
+/* Inter-core heatmaps: one per CPU, two to a row */
+.heatmaps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 32px;
+}
+
+.heatmap {
+  color: #DDD;
+  font-size: 13px;
+}
+
+.heatmapTitle {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.heatmapScale {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 28px;
+  font-size: 12px;
+}
+
+.heatmapGradient {
+  display: inline-block;
+  width: 200px;
+  height: 10px;
+}
+
+.note {
+  color: #B0BEC5;
+  text-align: center;
+  margin: -24px 0 24px;
+}

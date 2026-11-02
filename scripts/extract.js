@@ -128,6 +128,18 @@ for (const [id, view] of LATENCY) {
 }
 
 fs.writeFileSync(path.join(__dirname, '..', 'data', 'sandra.json'), JSON.stringify(groups) + '\n')
+
+// data/heatmaps.json: each machine's latency between every pair of threads ("U0-U2 Data Latency : 26.6ns"),
+// from the closest-cores run, in machine order
+const heatmaps = MACHINES.map(m => {
+  const text = fs.readFileSync(path.join(ROOT, m, `${m}_cpu_best_latency_mt.txt`), 'utf8')
+  const pairs = [...text.matchAll(/^U(\d+)-U(\d+) Data Latency : ([0-9.]+)ns\s*$/gm)].map(r => [Number(r[1]), Number(r[2]), Number(r[3])])
+  const units = [...new Set(pairs.flatMap(([a, b]) => [a, b]))].sort((a, b) => a - b)
+  if (pairs.length !== units.length * (units.length - 1) / 2) throw new Error(`${m}: ${pairs.length} pairs for ${units.length} threads`)
+  return { units, pairs }
+})
+fs.writeFileSync(path.join(__dirname, '..', 'data', 'heatmaps.json'), JSON.stringify(heatmaps) + '\n')
+console.log(`heatmaps: ${heatmaps.map((h, i) => `${MACHINES[i]} ${h.units.length}x${h.units.length}`).join(', ')}`)
 for (const g of groups) {
   console.log(`${g.name}: ${g.benchmarks.length} charts`)
   for (const b of g.benchmarks) console.log(`  ${b.name} [${b.unit}${b.lowerIsBetter ? ', lower is better' : ''}] ${b.datasets[0].data.join(', ')}`)

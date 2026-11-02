@@ -5,6 +5,9 @@ import BenchChart, { type Benchmark } from './BenchChart'
 import describe from './describe'
 import chartData from '../data/file.json'
 import sandraData from '../data/sandra.json'
+import heatmapData from '../data/heatmaps.json'
+import LatencyHeatmap, { type Heatmap } from './LatencyHeatmap'
+import { machines } from './machines'
 
 type Group = { name: string, benchmarks: Benchmark[] }
 
@@ -37,7 +40,19 @@ export default function Main() {
             <Tabs defaultValue={groups[0].name} keepMounted={false} classNames={{ list: classes.subTabs, tab: classes.tab }}>
               <Tabs.List grow>
                 {groups.map(g => <Tabs.Tab key={g.name} value={g.name}>{viewName(g.name)}</Tabs.Tab>)}
+                {t === 'Inter-core' && <Tabs.Tab value="heatmap">Heatmap</Tabs.Tab>}
               </Tabs.List>
+              {t === 'Inter-core' && (
+                <Tabs.Panel value="heatmap">
+                  <div className={classes.header}>Inter-core - Heatmap</div>
+                  <div className={classes.note}>
+                    latency between every pair of threads (U0, U1, …), closest-cores run; each CPU on its own scale, hover a cell for its value
+                  </div>
+                  <div className={classes.heatmaps}>
+                    {(heatmapData as Heatmap[]).map((h, i) => <LatencyHeatmap key={machines[i].name} name={machines[i].name} heatmap={h} />)}
+                  </div>
+                </Tabs.Panel>
+              )}
               {groups.map(g => (
                 <Tabs.Panel key={g.name} value={g.name}>
                   <div className={classes.header}>{g.name}</div>
