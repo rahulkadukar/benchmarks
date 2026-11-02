@@ -7,12 +7,6 @@ body {
   background-color: #37474F;
 }
 
-#legendBox {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-}
-
 .header-div {
   color: #FFF;
   font-size: 24px;
@@ -21,14 +15,23 @@ body {
   border-bottom: 4px solid brown;
 }
 
-.list {
+.tabs {
   display: flex;
-  flex-direction: column;
+  gap: 4px;
+  margin-top: 20px;
+  border-bottom: 4px solid brown;
 }
 
-.list > div {
-  border: 1px solid black;
-  padding: 10px;
+.tabs > button {
+  background: #455A64;
+  color: #DDD;
+  border: none;
+  padding: 10px 14px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.tabs > button.active {
+  background: brown;
   color: #FFF;
-  font-size: 20px;
 }

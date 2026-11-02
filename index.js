@@ -130,11 +130,30 @@ const valueLabels = {
 
 function renderCharts(chartData) {
   const container = document.getElementById('container')
-  chartData.forEach((c) => {
+  // one tab per group; charts in a hidden tab render at zero size, so they are resized when shown
+  const tabBar = document.createElement('div')
+  tabBar.classList.add('tabs')
+  container.appendChild(tabBar)
+  const tabs = []
+  const show = (k) => tabs.forEach((t, j) => {
+    t.button.classList.toggle('active', j === k)
+    t.panel.hidden = j !== k
+    if (j === k) t.charts.forEach((chart) => chart.resize())
+  })
+  chartData.forEach((c, k) => {
+    const button = document.createElement('button')
+    button.innerText = c.name.replace('Arithmetic - ', '').replace(' (multithreaded)', '')
+    button.onclick = () => show(k)
+    tabBar.appendChild(button)
+    const panel = document.createElement('div')
+    container.appendChild(panel)
+    const tab = { button, panel, charts: [] }
+    tabs.push(tab)
+
     const headerDiv = document.createElement('div')
     headerDiv.classList.add(`header-div`)
     headerDiv.innerText = c.name
-    container.appendChild(headerDiv)
+    panel.appendChild(headerDiv)
 
     const benchMarks = c.benchmarks
     
@@ -143,6 +162,7 @@ function renderCharts(chartData) {
       canvas.id = `canvas-${i.toString().padStart(3, `0`)}`
       canvas.height = 100
       var ctx = canvas.getContext('2d');
+      panel.appendChild(canvas)
       window.myHorizontalBar = new Chart(ctx, {
         type: 'horizontalBar',
         data: createHorizontalBarChartData(benchMarks[i]),
@@ -176,9 +196,10 @@ function renderCharts(chartData) {
           }
         }
       });
-      container.appendChild(canvas)
+      tab.charts.push(window.myHorizontalBar)
     }
   })
+  show(0)
 }
 
 window.onload = function() {
