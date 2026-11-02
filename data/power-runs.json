@@ -82,5 +82,41 @@
       ]
     ],
     "note": "the mt run in crypto_253.txt (stock 253 W limit)"
+  },
+  {
+    "view": "Crypto - All threads",
+    "machine": "frontier125",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-02T16:34:40-05:00",
+        "2026-11-02T16:37:23-05:00"
+      ]
+    ],
+    "note": "the mt run in crypto_125.txt (PL1 = PL2 = 125 W)"
+  },
+  {
+    "view": "Crypto - All cores",
+    "machine": "frontier125",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-02T16:38:14-05:00",
+        "2026-11-02T16:40:57-05:00"
+      ]
+    ],
+    "note": "the mc run in crypto_125.txt (PL1 = PL2 = 125 W)"
+  },
+  {
+    "view": "Crypto - Single thread",
+    "machine": "frontier125",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-02T16:41:34-05:00",
+        "2026-11-02T16:45:13-05:00"
+      ]
+    ],
+    "note": "the 1t run in crypto_125.txt (PL1 = PL2 = 125 W)"
   }
 ]
