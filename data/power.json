@@ -11,6 +11,18 @@
    "note": "the only heavy run in the plug log; produced frontier_cpu_arithmetic_mc.txt"
   }
  },
+ "Arithmetic - All threads": {
+  "frontier": {
+   "avgW": 319.3,
+   "peakW": 381.3,
+   "idleW": 33.7,
+   "whPerRun": 18.4,
+   "seconds": 207,
+   "runs": 1,
+   "rangeW": null,
+   "note": "the only run in that window; produced frontier_cpu_arithmetic_mt.txt"
+  }
+ },
  "Arithmetic - Single thread": {
   "frontier": {
    "avgW": 71.1,
