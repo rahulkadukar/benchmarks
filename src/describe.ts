@@ -31,10 +31,11 @@ export default function describe(group: string, benchmark: Benchmark) {
   if (benchmark.unit !== undefined) return describeExtracted(group, benchmark.unit, benchmark.lowerIsBetter ?? false)
   const chart = benchmark.name
   const { what, unit } = measures(chart)
-  if (unit === 'watts') return `${what}, in ${unit}`
+  // the i7-14700K has no single rated TDP that matches how it ran, so its watts are measured
+  if (unit === 'watts') return `${what}, in ${unit}; i7-14700K: measured wall power of the whole PC during its run`
   if (group.includes('Single thread')) return `${what}, one thread, ${unit} (billions per second)`
   if (group.includes('per thread')) return `${what}, ${unit} ÷ thread count (32, 16, 28, 12, 12, 4, 2)`
-  if (group.includes('vs Power')) return `${what}, ${unit} ÷ rated watts × 1000 (millions per watt)`
+  if (group.includes('vs Power')) return `${what}, ${unit} ÷ rated watts × 1000 (millions per watt); i7-14700K ÷ its measured wall power`
   if (group.includes('vs Speed')) return `${what}, ${unit} ÷ clock speed in GHz`
   return `${what}, all threads, ${unit} (billions per second)`
 }

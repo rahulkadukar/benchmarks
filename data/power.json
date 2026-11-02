@@ -37,5 +37,41 @@
    ],
    "note": "average of today's four single-thread runs; the saved file's own run may be in the 13:28-14:56 log gap"
   }
+ },
+ "Crypto - Single thread": {
+  "frontier": {
+   "avgW": 72.6,
+   "peakW": 88.3,
+   "idleW": 33.8,
+   "whPerRun": 4.4,
+   "seconds": 217,
+   "runs": 1,
+   "rangeW": null,
+   "note": "the 1t run in crypto_253.txt (stock 253 W limit)"
+  }
+ },
+ "Crypto - All cores": {
+  "frontier": {
+   "avgW": 191.9,
+   "peakW": 308,
+   "idleW": 33.8,
+   "whPerRun": 10.5,
+   "seconds": 197,
+   "runs": 1,
+   "rangeW": null,
+   "note": "the mc run in crypto_253.txt (stock 253 W limit)"
+  }
+ },
+ "Crypto - All threads": {
+  "frontier": {
+   "avgW": 250.8,
+   "peakW": 333.9,
+   "idleW": 36,
+   "whPerRun": 10.3,
+   "seconds": 148,
+   "runs": 1,
+   "rangeW": null,
+   "note": "the mt run in crypto_253.txt (stock 253 W limit)"
+  }
  }
 }

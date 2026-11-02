@@ -46,5 +46,41 @@
       ]
     ],
     "note": "average of today's four single-thread runs; the saved file's own run may be in the 13:28-14:56 log gap"
+  },
+  {
+    "view": "Crypto - Single thread",
+    "machine": "frontier",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-02T16:09:37-05:00",
+        "2026-11-02T16:13:24-05:00"
+      ]
+    ],
+    "note": "the 1t run in crypto_253.txt (stock 253 W limit)"
+  },
+  {
+    "view": "Crypto - All cores",
+    "machine": "frontier",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-02T16:13:45-05:00",
+        "2026-11-02T16:17:13-05:00"
+      ]
+    ],
+    "note": "the mc run in crypto_253.txt (stock 253 W limit)"
+  },
+  {
+    "view": "Crypto - All threads",
+    "machine": "frontier",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-02T16:17:56-05:00",
+        "2026-11-02T16:20:39-05:00"
+      ]
+    ],
+    "note": "the mt run in crypto_253.txt (stock 253 W limit)"
   }
 ]

@@ -7,8 +7,11 @@ const fs = require('fs')
 const path = require('path')
 
 const PLUG_LOG = path.join(process.env.HOME, 'temp', 'one-off', 'ui-watch-mode', 'kasa-data')
-const IDLE_BEFORE_MS = 3 * 60 * 1000 // idle = the quiet floor (10th percentile) of the 3 minutes before each run;
-// a median would count the tail of an earlier run that ended inside that window
+// idle = the quiet floor (10th percentile) of up to 3 minutes of readings before each run, looking back as
+// far as 10 minutes and skipping every listed run, so back-to-back runs don't count each other as idle
+const IDLE_MS = 3 * 60 * 1000
+const LOOKBACK_MS = 10 * 60 * 1000
+const MARGIN_MS = 10 * 1000
 
 function rows(plug, from, to) {
   const out = []
@@ -27,6 +30,10 @@ function rows(plug, from, to) {
 
 const floor = (xs) => [...xs].sort((a, b) => a - b)[Math.floor(xs.length * 0.1)]
 
+const ENTRIES = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'power-runs.json'), 'utf8'))
+const WINDOWS = ENTRIES.flatMap(e => e.runs.map(([s, t]) => [Date.parse(s) - MARGIN_MS, Date.parse(t) + MARGIN_MS]))
+const inAnyRun = (t) => WINDOWS.some(([a, b]) => t >= a && t <= b)
+
 function measure(plug, start, end) {
   const from = Date.parse(start)
   const to = Date.parse(end)
@@ -36,7 +43,8 @@ function measure(plug, start, end) {
   let wattSeconds = 0
   for (let i = 1; i < run.length; i++) wattSeconds += run[i].power * (run[i].t - run[i - 1].t) / 1000
   const seconds = (run[run.length - 1].t - run[0].t) / 1000
-  const before = rows(plug, from - IDLE_BEFORE_MS, from - 10000).map(r => r.power)
+  const quiet = rows(plug, from - LOOKBACK_MS, from - MARGIN_MS).filter(r => !inAnyRun(r.t))
+  const before = quiet.filter(r => r.t >= (quiet.length ? quiet[quiet.length - 1].t : 0) - IDLE_MS).map(r => r.power)
   return {
     seconds,
     avg: wattSeconds / seconds,
@@ -48,7 +56,7 @@ function measure(plug, start, end) {
 
 const round = (x) => (x === null ? null : Math.round(x * 10) / 10)
 const out = {}
-for (const entry of JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'data', 'power-runs.json'), 'utf8'))) {
+for (const entry of ENTRIES) {
   const m = entry.runs.map(([s, e]) => measure(entry.plug, s, e))
   const mean = (k) => m.reduce((a, r) => a + r[k], 0) / m.length
   const idles = m.map(r => r.idle).filter(x => x !== null)
