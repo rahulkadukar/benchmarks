@@ -14,7 +14,7 @@
 
 .tabs {
   margin-top: 20px;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 4px;
   border-bottom: 4px solid brown;
 }

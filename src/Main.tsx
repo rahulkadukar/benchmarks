@@ -4,6 +4,7 @@ import classes from './Main.module.css'
 import BenchChart, { type Benchmark } from './BenchChart'
 import describe from './describe'
 import chartData from '../data/file.json'
+import sandraData from '../data/sandra.json'
 
 type Group = { name: string, benchmarks: Benchmark[] }
 
@@ -13,7 +14,11 @@ const viewName = (name: string) => name.split(' - ')[1].replace(' (multithreaded
 
 // one top-level tab per Sandra test, holding one tab per view of it, in file order
 const tests = new Map<string, Group[]>()
-for (const g of chartData as Group[]) tests.set(testName(g.name), [...(tests.get(testName(g.name)) ?? []), g])
+for (const g of [...chartData, ...sandraData] as Group[]) tests.set(testName(g.name), [...(tests.get(testName(g.name)) ?? []), g])
+// each test opens on its single-thread view, then all cores, then all threads
+const FIRST = ['Single thread', 'All cores', 'All threads']
+const rank = (g: Group) => (FIRST.includes(viewName(g.name)) ? FIRST.indexOf(viewName(g.name)) : FIRST.length)
+for (const groups of tests.values()) groups.sort((a, b) => rank(a) - rank(b))
 
 const tabClasses = { list: classes.tabs, tab: classes.tab }
 
@@ -23,6 +28,7 @@ export default function Main() {
     <div className={classes.container}>
       {/* keepMounted={false}: a chart drawn in a hidden tab would be zero size, so each tab draws when opened */}
       <Tabs defaultValue={first} keepMounted={false} classNames={tabClasses}>
+        {/* the tests' tabs wrap onto a second row; each test's views stay on one */}
         <Tabs.List>
           {[...tests.keys()].map(t => <Tabs.Tab key={t} value={t}>{t}</Tabs.Tab>)}
         </Tabs.List>
@@ -35,7 +41,7 @@ export default function Main() {
               {groups.map(g => (
                 <Tabs.Panel key={g.name} value={g.name}>
                   <div className={classes.header}>{g.name}</div>
-                  {g.benchmarks.map(b => <BenchChart key={b.name} benchmark={b} description={describe(g.name, b.name)} />)}
+                  {g.benchmarks.map(b => <BenchChart key={b.name} benchmark={b} description={describe(g.name, b)} />)}
                 </Tabs.Panel>
               ))}
             </Tabs>
