@@ -118,5 +118,41 @@
       ]
     ],
     "note": "the 1t run in crypto_125.txt (PL1 = PL2 = 125 W)"
+  },
+  {
+    "view": "Arithmetic - Single thread",
+    "machine": "frontier125",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-02T16:49:45-05:00",
+        "2026-11-02T16:53:22-05:00"
+      ]
+    ],
+    "note": "the 1t run in arith_125.txt (PL1 = PL2 = 125 W)"
+  },
+  {
+    "view": "Arithmetic - All cores",
+    "machine": "frontier125",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-02T16:53:59-05:00",
+        "2026-11-02T16:57:39-05:00"
+      ]
+    ],
+    "note": "the mc run in arith_125.txt (PL1 = PL2 = 125 W)"
+  },
+  {
+    "view": "Arithmetic - All threads",
+    "machine": "frontier125",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-02T16:58:21-05:00",
+        "2026-11-02T17:02:07-05:00"
+      ]
+    ],
+    "note": "the mt run in arith_125.txt (PL1 = PL2 = 125 W)"
   }
 ]
