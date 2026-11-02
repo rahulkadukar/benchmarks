@@ -15,7 +15,7 @@ function measures(chart: string): { what: string, unit: string } {
 export default function describe(group: string, chart: string) {
   const { what, unit } = measures(chart)
   if (unit === 'watts') return `${what}, in ${unit}`
-  if (group.includes('per thread')) return `${what}, ${unit} ÷ thread count (32, 16, 12, 12, 2)`
+  if (group.includes('per thread')) return `${what}, ${unit} ÷ thread count (32, 16, 12, 12, 4, 2)`
   if (group.includes('vs Power')) return `${what}, ${unit} ÷ rated watts × 1000 (millions per watt)`
   if (group.includes('vs Speed')) return `${what}, ${unit} ÷ clock speed in GHz`
   return `${what}, all threads, ${unit} (billions per second)`
