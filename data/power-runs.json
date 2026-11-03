@@ -154,5 +154,41 @@
       ]
     ],
     "note": "the mt run in arith_125.txt (PL1 = PL2 = 125 W)"
+  },
+  {
+    "view": "Arithmetic - Single thread",
+    "machine": "frontier65",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-03T16:57:55-05:00",
+        "2026-11-03T17:01:30-05:00"
+      ]
+    ],
+    "note": "the 1t run in arith_65.txt (PL1 = PL2 = 65 W)"
+  },
+  {
+    "view": "Arithmetic - All cores",
+    "machine": "frontier65",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-03T17:02:00-05:00",
+        "2026-11-03T17:05:50-05:00"
+      ]
+    ],
+    "note": "the mc run in arith_65.txt (PL1 = PL2 = 65 W)"
+  },
+  {
+    "view": "Arithmetic - All threads",
+    "machine": "frontier65",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-03T17:07:24-05:00",
+        "2026-11-03T17:11:35-05:00"
+      ]
+    ],
+    "note": "the mt run in arith_65.txt (PL1 = PL2 = 65 W)"
   }
 ]
