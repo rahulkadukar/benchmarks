@@ -190,5 +190,41 @@
       ]
     ],
     "note": "the mt run in arith_65.txt (PL1 = PL2 = 65 W)"
+  },
+  {
+    "view": "Crypto - Single thread",
+    "machine": "frontier65",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-03T17:19:17-05:00",
+        "2026-11-03T17:22:32-05:00"
+      ]
+    ],
+    "note": "the 1t run in crypto_65.txt (PL1 = PL2 = 65 W)"
+  },
+  {
+    "view": "Crypto - All cores",
+    "machine": "frontier65",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-03T17:24:48-05:00",
+        "2026-11-03T17:27:34-05:00"
+      ]
+    ],
+    "note": "the mc run in crypto_65.txt (PL1 = PL2 = 65 W)"
+  },
+  {
+    "view": "Crypto - All threads",
+    "machine": "frontier65",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-03T17:28:17-05:00",
+        "2026-11-03T17:31:02-05:00"
+      ]
+    ],
+    "note": "the mt run in crypto_65.txt (PL1 = PL2 = 65 W)"
   }
 ]

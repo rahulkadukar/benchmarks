@@ -1,0 +1,57 @@
+SiSoftware Sandra
+
+Benchmark Results
+Cryptographic Bandwidth : 4.61GB/s
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 10.42GB/s
+Hashing Bandwidth SHA2-256 SHA/HWA : 2GB/s
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Performance vs. Speed
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 3.12MB/s/MHz
+Hashing Bandwidth SHA2-256 SHA/HWA : 0.61MB/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Detailed Results
+Encryption Bandwidth AES256-ECB : 10.49GB/s
+Decryption Bandwidth AES256-ECB : 10.36GB/s
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-14700K (20C 40T 3.42GHz/5.6GHz, 11x 2MB L2, 33MB L3)
+Microcode
+Computer : MSI MS-7D98 Default string (MSI PRO B760-P WIFI DDR4 (MS-7D98))
+Platform Compliance : x64
+No. Threads : 1
+Processor Affinity : U0-C0T0 
+System Timer : 10MHz
+
+Encryption/Decryption Bandwidth
+Block Size : 8GB
+
+Hashing Bandwidth
+Block Size : 15.92GB
+
+Processor
+Model : Intel(R) Core(TM) i7-14700K
+Speed : 3.42GHz (61%)
+Min/Max/Turbo Speed : N/A - 3.4GHz - 5.6GHz
+Cores per Processor : 20 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : B7 / 1
+L1D (1st Level) Data Cache : 20x 48kB, 12-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 20x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 11x 2MB, 16-Way, 64bytes Line Size, 8 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 33MB, 11-Way, 64bytes Line Size, 128 Thread(s)
+
+Features
+POPCNT - Pop Count : Yes
+RNG - Random Number Generator : Yes
+AES - Accelerated Cryptography Support : Yes
+SHA - Accelerated Hashing Support : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Tip 223 : CPU speed, under load, lower than rated speed. Check power management settings.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.

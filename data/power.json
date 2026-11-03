@@ -118,6 +118,16 @@
    "runs": 1,
    "rangeW": null,
    "note": "the 1t run in crypto_125.txt (PL1 = PL2 = 125 W)"
+  },
+  "frontier65": {
+   "avgW": 77.5,
+   "peakW": 83.5,
+   "idleW": 33.8,
+   "whPerRun": 4,
+   "seconds": 185,
+   "runs": 1,
+   "rangeW": null,
+   "note": "the 1t run in crypto_65.txt (PL1 = PL2 = 65 W)"
   }
  },
  "Crypto - All cores": {
@@ -140,6 +150,16 @@
    "runs": 1,
    "rangeW": null,
    "note": "the mc run in crypto_125.txt (PL1 = PL2 = 125 W)"
+  },
+  "frontier65": {
+   "avgW": 118.2,
+   "peakW": 121.4,
+   "idleW": 34,
+   "whPerRun": 5.1,
+   "seconds": 154,
+   "runs": 1,
+   "rangeW": null,
+   "note": "the mc run in crypto_65.txt (PL1 = PL2 = 65 W)"
   }
  },
  "Crypto - All threads": {
@@ -162,6 +182,16 @@
    "runs": 1,
    "rangeW": null,
    "note": "the mt run in crypto_125.txt (PL1 = PL2 = 125 W)"
+  },
+  "frontier65": {
+   "avgW": 120.4,
+   "peakW": 122.4,
+   "idleW": 34.6,
+   "whPerRun": 5.2,
+   "seconds": 155,
+   "runs": 1,
+   "rangeW": null,
+   "note": "the mt run in crypto_65.txt (PL1 = PL2 = 65 W)"
   }
  }
 }
