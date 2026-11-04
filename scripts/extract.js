@@ -7,8 +7,8 @@ const path = require('path')
 
 const ROOT = path.join(__dirname, '..', '2020-02')
 // same order as src/machines.ts; frontier is the i7-14700K (2026 runs), frontier125 the same PC capped at
-// 125 W (PL1 = PL2 = 125 W in ThrottleStop), frontier65 the same PC capped at 65 W
-const MACHINES = ['summit', 'tars', 'frontier', 'frontier125', 'frontier65', 'yellowstone', 'roadrunner', 'bluegene', 'cray']
+// 125 W (PL1 = PL2 = 125 W in ThrottleStop), frontier65 and frontier35 the same PC capped at 65 W and 35 W
+const MACHINES = ['summit', 'tars', 'frontier', 'frontier125', 'frontier65', 'frontier35', 'yellowstone', 'roadrunner', 'bluegene', 'cray']
 
 // Sandra saves its text reports as UTF-8 (2020) or as UTF-16 with a byte-order mark (2026)
 function readText(file) {

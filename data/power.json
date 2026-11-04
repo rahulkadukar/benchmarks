@@ -29,6 +29,16 @@
    "runs": 1,
    "rangeW": null,
    "note": "the mc run in arith_65.txt (PL1 = PL2 = 65 W)"
+  },
+  "frontier35": {
+   "avgW": 74.5,
+   "peakW": 78,
+   "idleW": 34,
+   "whPerRun": 5,
+   "seconds": 240,
+   "runs": 1,
+   "rangeW": null,
+   "note": "the mc run in arith_35.txt (PL1 = PL2 = 35 W)"
   }
  },
  "Arithmetic - All threads": {
@@ -61,6 +71,16 @@
    "runs": 1,
    "rangeW": null,
    "note": "the mt run in arith_65.txt (PL1 = PL2 = 65 W)"
+  },
+  "frontier35": {
+   "avgW": 74.8,
+   "peakW": 78.1,
+   "idleW": 34,
+   "whPerRun": 6,
+   "seconds": 291,
+   "runs": 1,
+   "rangeW": null,
+   "note": "the mt run in arith_35.txt (PL1 = PL2 = 35 W)"
   }
  },
  "Arithmetic - Single thread": {
@@ -96,6 +116,16 @@
    "runs": 1,
    "rangeW": null,
    "note": "the 1t run in arith_65.txt (PL1 = PL2 = 65 W)"
+  },
+  "frontier35": {
+   "avgW": 72,
+   "peakW": 75.7,
+   "idleW": 34,
+   "whPerRun": 3.9,
+   "seconds": 193,
+   "runs": 1,
+   "rangeW": null,
+   "note": "the 1t run in arith_35.txt (PL1 = PL2 = 35 W)"
   }
  },
  "Crypto - Single thread": {
