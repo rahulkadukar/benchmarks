@@ -262,5 +262,41 @@
       ]
     ],
     "note": "the mt run in arith_35.txt (PL1 = PL2 = 35 W)"
+  },
+  {
+    "view": "Crypto - Single thread",
+    "machine": "frontier35",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-03T19:51:57-05:00",
+        "2026-11-03T19:55:10-05:00"
+      ]
+    ],
+    "note": "the 1t run in crypto_35.txt (PL1 = PL2 = 35 W)"
+  },
+  {
+    "view": "Crypto - All cores",
+    "machine": "frontier35",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-03T19:58:17-05:00",
+        "2026-11-03T20:01:08-05:00"
+      ]
+    ],
+    "note": "the mc run in crypto_35.txt (PL1 = PL2 = 35 W)"
+  },
+  {
+    "view": "Crypto - All threads",
+    "machine": "frontier35",
+    "plug": "172.16.28.26",
+    "runs": [
+      [
+        "2026-11-03T20:03:17-05:00",
+        "2026-11-03T20:06:10-05:00"
+      ]
+    ],
+    "note": "the mt run in crypto_35.txt (PL1 = PL2 = 35 W)"
   }
 ]

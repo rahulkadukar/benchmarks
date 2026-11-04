@@ -1,0 +1,67 @@
+SiSoftware Sandra
+
+Benchmark Results
+Cryptographic Bandwidth : 15.24GB/s
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 15.16GB/s
+Hashing Bandwidth SHA2-256 SHA/HWA : 15.31GB/s
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Performance per Thread
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 554MB/s
+Hashing Bandwidth SHA2-256 SHA/HWA : 559MB/s
+No. Threads : 28
+Results Interpretation : Higher Scores mean Better Performance.
+Binary Numeral System (base 2) : 1GB(/s) = 1024MB(/s), 1MB(/s) = 1024kB(/s), 1kB(/s) = 1024 bytes(/s), etc.
+
+Performance vs. Speed
+Encryption/Decryption Bandwidth AES256-ECB AES/HWA : 4.54MB/s/MHz
+Hashing Bandwidth SHA2-256 SHA/HWA : 4.59MB/s/MHz
+Results Interpretation : Higher Scores mean Better Performance.
+
+Detailed Results
+Encryption Bandwidth AES256-ECB : 15.41GB/s
+Decryption Bandwidth AES256-ECB : 14.92GB/s
+
+Benchmark Status
+Result ID : Intel(R) Core(TM) i7-14700K (20C 40T 3.42GHz/5.6GHz, 11x 2MB L2, 33MB L3)
+Microcode
+Computer : MSI MS-7D98 Default string (MSI PRO B760-P WIFI DDR4 (MS-7D98))
+Platform Compliance : x64
+No. Threads : 28
+Processor Affinity : U0-C0T0 U2-C1T0 U4-C2T0 U6-C3T0 U8-C4T0 U10-C5T0 U12-C6T0 U14-C7T0 U16-C8T0 U17-C9T0 U18-C10T0 U19-C11T0 U20-C12T0 U21-C13T0 U22-C14T0 U23-C15T0 U24-C16T0 U25-C17T0 U26-C18T0 U27-C19T0 U1-C0T1 U3-C1T1 U5-C2T1 U7-C3T1 U9-C4T1 U11-C5T1 U13-C6T1 U15-C7T1 
+System Timer : 10MHz
+
+Encryption/Decryption Bandwidth
+Block Size : 8GB
+
+Hashing Bandwidth
+Block Size : 15.92GB
+
+Processor
+Model : Intel(R) Core(TM) i7-14700K
+Speed : 3.42GHz (61%)
+Min/Max/Turbo Speed : N/A - 3.4GHz - 5.6GHz
+Cores per Processor : 20 Unit(s)
+Threads per Core : 2 Unit(s)
+Front Side Bus Speed : 100MHz
+Revision/Stepping : B7 / 1
+L1D (1st Level) Data Cache : 20x 48kB, 12-Way, 64bytes Line Size, 2 Thread(s)
+L1I (1st Level) Code Cache : 20x 32kB, 8-Way, 64bytes Line Size, 2 Thread(s)
+L2 (2nd Level) Data/Unified Cache : 11x 2MB, 16-Way, 64bytes Line Size, 8 Thread(s)
+L3 (3rd Level) Data/Unified Cache : 33MB, 11-Way, 64bytes Line Size, 128 Thread(s)
+
+Features
+POPCNT - Pop Count : Yes
+RNG - Random Number Generator : Yes
+AES - Accelerated Cryptography Support : Yes
+SHA - Accelerated Hashing Support : Yes
+HTT - Hyper-Threading Technology : Yes
+
+Performance Enhancing Tips
+Warning 5010 : Cannot use Large Memory Pages due to lack of privileges.
+Tip 223 : CPU speed, under load, lower than rated speed. Check power management settings.
+Tip 2 : Double-click tip or press Enter while a tip is selected for more information about the tip.
+
+
+==mc==
