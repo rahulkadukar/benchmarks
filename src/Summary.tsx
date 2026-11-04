@@ -31,6 +31,10 @@ const stock = rows[0]
 
 const pct = (v: number | null, base: number | null) => (v === null || !base ? '' : ` (${Math.round(v / base * 100)}%)`)
 const num = (v: number | null, digits = 1) => (v === null ? '–' : v.toFixed(digits))
+// Crypto MB/s per wall watt, counting 1 GB as 1000 MB, like the pensieve post
+const cryptoPerW = (r: (typeof rows)[number]) => (r.cryptoMt !== null && r.cryptoW ? (r.cryptoMt * 1000) / r.cryptoW : null)
+// + gain over stock, blank for stock itself
+const gain = (v: number | null, base: number | null) => (v === null || !base || v === base ? '' : ` (+${Math.round((v / base - 1) * 100)}%)`)
 
 export default function Summary() {
   return (
@@ -46,6 +50,7 @@ export default function Summary() {
             <th>GOPS per wall watt</th>
             <th>Crypto, all threads (GB/s)</th>
             <th>Wall power (W)</th>
+            <th>Crypto MB/s per wall watt</th>
           </tr>
         </thead>
         <tbody>
@@ -58,6 +63,7 @@ export default function Summary() {
               <td>{r.arithMt !== null && r.arithW ? (r.arithMt / r.arithW).toFixed(2) : '–'}</td>
               <td>{num(r.cryptoMt, 2)}{pct(r.cryptoMt, stock.cryptoMt)}</td>
               <td>{num(r.cryptoW)}{pct(r.cryptoW, stock.cryptoW)}</td>
+              <td>{num(cryptoPerW(r))}{gain(cryptoPerW(r), cryptoPerW(stock))}</td>
             </tr>
           ))}
         </tbody>

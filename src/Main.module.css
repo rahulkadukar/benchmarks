@@ -99,9 +99,12 @@
   text-align: right;
 }
 
+.summaryTable td {
+  white-space: nowrap;
+}
+
 .summaryTable th:first-child,
 .summaryTable td:first-child {
-  white-space: nowrap;
   text-align: left;
 }
 
