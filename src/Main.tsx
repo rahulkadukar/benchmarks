@@ -9,6 +9,7 @@ import sandraData from '../data/sandra.json'
 import heatmapData from '../data/heatmaps.json'
 import LatencyHeatmap, { type Heatmap } from './LatencyHeatmap'
 import { machines } from './machines'
+import Summary from './Summary'
 
 type Group = { name: string, benchmarks: Benchmark[] }
 
@@ -48,6 +49,7 @@ export default function Main() {
   const first = [...tests.keys()][0]
   return (
     <div className={classes.container}>
+      <Summary />
       {/* keepMounted={false}: a chart drawn in a hidden tab would be zero size, so each tab draws when opened */}
       <Tabs defaultValue={first} keepMounted={false} classNames={tabClasses}>
         {/* the tests' tabs wrap onto a second row; each test's views stay on one */}

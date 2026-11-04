@@ -78,3 +78,41 @@
   text-align: center;
   margin: -24px 0 24px;
 }
+
+/* power-cap summary above the tabs */
+.summary {
+  color: #DDD;
+  margin-top: 20px;
+}
+
+.summaryTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+  font-variant-numeric: tabular-nums;
+}
+
+.summaryTable th,
+.summaryTable td {
+  padding: 6px 8px;
+  border-bottom: 1px solid #546E7A;
+  text-align: right;
+}
+
+.summaryTable th:first-child,
+.summaryTable td:first-child {
+  white-space: nowrap;
+  text-align: left;
+}
+
+.summaryTable th {
+  color: #FFF;
+  font-weight: 600;
+  vertical-align: bottom;
+}
+
+.summaryList {
+  margin: 12px 0 0;
+  padding-left: 20px;
+  line-height: 1.6;
+}
